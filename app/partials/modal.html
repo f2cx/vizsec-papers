@@ -1,0 +1,17 @@
+
+<div class="modal-header">
+    <h2 class="modal-title">{{paper.title}}</h2>
+    <h4 class="modal-title">{{paper.authors}}</h4>
+
+</div>
+<div class="modal-body">
+    <p><div ng-show="paper.thumbnail"><a href="http://dx.doi.org/{{paper.doi}}" target="_blank"><img alt="{{paper.title}}" title="{{paper.title}}" class="pull-right paper-image" ng-src="papers/{{paper.thumbnail}}" /></a></div>
+    <blockquote class="paper-abstract">{{paper.abstract}}</blockquote></p>
+
+<strong>Reference:</strong> <em>VizSec {{paper.year}} - DOI: <a href="http://dx.doi.org/{{paper.doi}}" target="_blank">{{paper.doi}}</a></em>
+</div>
+<div class="modal-footer">
+    <a type="button" href="http://dx.doi.org/{{paper.doi}}" target="_blank" class="btn btn-danger">Visit Publisher Website</a>
+    <button class="btn btn-primary" ng-click="ok()">Close</button>
+
+</div>

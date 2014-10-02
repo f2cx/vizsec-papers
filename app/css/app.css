@@ -1,0 +1,125 @@
+/*
+ * main css stylesheet
+ */
+
+body { 
+    padding-top: 70px; 
+}
+
+/*
+ * Hack to crop the thumbnails
+ */
+
+.galleryImgWrapper {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+.galleryImgWrapper img {
+    max-height: 100%;
+}
+
+/*
+ * Tab: Paper List
+ */
+
+.papers li {
+    clear: both;
+    height: 117px;
+    padding-top: 15px;
+}
+
+.listing-image {
+    float: left;
+    margin: -0.5em 1em 1.5em 0.5em;
+    padding-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+.paper-listing {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+
+
+.paper-listing:hover {
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+
+/*
+ * Tab: Thumbnails
+ */
+
+.thumbnails {
+    padding-top:20px;
+}
+.thumbnails li {
+    clear: both;
+    height: 117px;
+    padding-top: 15px;
+    list-style-type: none;
+    display: inline;
+}
+
+.thumbnail-image {
+    float: left;
+    margin: -0.5em 1em 1.5em 0.5em;
+    padding-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+.paper-thumbnails img:hover {
+    background-color: #EEE;
+    cursor: pointer;
+   border: 3px solid #ddd;
+    border-radius: 4px;
+}
+
+/*
+ * Tab: WordCloud
+ */
+
+.wordcloud {
+    
+}
+
+
+/*
+ * Tab: Modal Window
+ */
+
+.paper-image {
+    background-color: white;
+    max-width: 450px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.paper-abstract {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*
+ * Tab: TreeMap
+ */
+
+#treemap{
+    width: 1000px;
+    height: 800px;
+}

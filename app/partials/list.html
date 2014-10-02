@@ -1,0 +1,113 @@
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">VizSec Papers <em>[alpha]</em></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input ng-model="query" ng-change="updateVis()" type="text" class="form-control" placeholder="Search">
+                </div>
+
+            </form>
+            
+            <ul class="nav navbar-nav">
+                <li ng-class="{ active: isSet(1) }"><a href ng-click="setTab(1)"><i class="glyphicon glyphicon-th-list"></i><span>&nbsp; List</span></a></li>
+                <li ng-class="{ active: isSet(2) }"><a href ng-click="setTab(2)"><i class="glyphicon glyphicon-th"></i><span>&nbsp; Thumbnails</span></a></li>
+                <li ng-class="{ active: isSet(3) }"><a href ng-click="setTab(3)"><i class="glyphicon glyphicon-cloud"></i><span>&nbsp; WordCloud</span></a></a></li>
+                <li ng-class="{ active: isSet(4) }"><a href ng-click="setTab(4)"><i class="glyphicon glyphicon-th-large"></i><span>&nbsp; TreeMap</span></a></a></li>
+            
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://www.vis.uni-konstanz.de/en/members/fischer/"><i class="glyphicon glyphicon-envelope"></i><span>&nbsp; <em>Maintained by F. Fischer</em></span></a></li>
+                <li><a href="http://www.vizsec.org/" target="_blank"><i class="glyphicon glyphicon-info-sign"></i><span>&nbsp; About</span></a></li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="row">
+
+    <div class="col-md-1">
+
+
+        <ul class="nav nav-pills nav-stacked">
+            <li ng-class="{ active: filters.year == '' }"><a href ng-click="filters.year = ''; updateVis();">All ({{(papers|filter: search).length}})</a></li>
+
+            <li ng-class="{ active: filters.year == paper.year }" ng-repeat="paper in papers| unique:'year' | orderBy:year">
+
+                <a href ng-click="filters.year = paper.year; updateVis();">{{paper.year}} ({{ (papers | filter: {year:paper.year} | filter: search).length}})</a>
+
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="col-md-10" ng-show="isSet(1)">
+        <p><strong>VizSec {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+        <ul class="papers">
+
+            <li ng-repeat="paper in filtered = (papers| filter: search |filter: {year:filters.year} | orderBy:['-year', 'title'])" class="paper-listing paper-animation">
+                <a href ng-click="open(paper)" class="listing-image"><div class="galleryImgWrapper"> <div ng-show="paper.thumbnail"><img title="{{paper.title}}" ng-src="papers/{{paper.thumbnail}}"></div></div></a>
+                <em>{{paper.authors}}</em><br/>
+                <a href ng-click="open(paper)"><strong>{{paper.title}}</strong></a> ({{paper.year}})<br/>
+
+                <em>VizSec {{paper.year}} - DOI: {{paper.doi}}</em>
+                <p>{{paper.abstract| limitTo : 100 }} ... </p>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="col-md-10" ng-show="isSet(2)">
+
+        <p><strong>Thumbnails - VizSec {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+
+        <ul class="thumbnails">
+
+            <li ng-repeat="paper in filtered = (papers| filter: search | filter: {year:filters.year} | orderBy:['-year', 'title'])" class="paper-thumbnails paper-animation">
+               <a href ng-click="open(paper)" class="thumbnail-image"><div class="galleryImgWrapper"><img title="{{paper.title}}" ng-src="papers/{{paper.thumbnail && (paper.thumbnail) || ('missing.png')}}"></div></a>
+                
+            </li>
+
+        </ul>
+        
+    </div>
+    <div class="col-md-10" ng-show="isSet(3)">
+
+        <p><strong>WordCloud - VizSec {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+        
+
+        
+        
+        <canvas width="1000px" height="800px" id="wordcloud"></canvas>
+        
+        
+    </div>
+    <div class="col-md-10" ng-show="isSet(4)">
+
+        <p><strong>TreeMap - VizSec {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+
+
+        <div id="treemap"></div>
+
+    </div>
+    
+
+</div>
+
+
+

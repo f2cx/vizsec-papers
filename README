@@ -1,0 +1,9 @@
+### TODO
+
+- General: Integrate route parameters to support linking and back and forward operations.
+- General: Improve layout for mobile devices.
+- General: Compatibility for other browsers.
+
+- TreeMap: Optimize the treemap representation
+- WordCloud: Add hover effects.
+- Thumbnails: Add better hover effects and animations.

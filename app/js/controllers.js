@@ -5,7 +5,7 @@
 var appControllers = angular.module('appControllers', ['ui.bootstrap', 'ui.utils', 'angular.filter', 'appFilters']);
 
 appControllers.controller('MainController', ['$scope', 'Paper', '$modal', '$log', '$filter',
-    function ($scope, Paper, $modal, $log, $filter, keyword, array) {
+    function ($scope, Paper, $modal, $log, $filter) {
 
         $scope.papers = Paper.query();
 

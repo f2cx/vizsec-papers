@@ -1,0 +1,1235 @@
+[
+
+    {
+        "thumbnail": "vizsec2013nunnally.png",
+        "title": "NAVSEC : a recommender system for 3D network security visualizations",
+        "doi": "10.1145/2517957.2517963",
+        "conference": "VizSec 2013",
+        "authors": "Troy Nunnally, Kulsoom Abdullah, A. Selcuk Uluagac, John A. Copeland, Raheem Beyah",
+        "year": "2013",
+        "abstract": "As network attacks increase in complexity, the ability to quickly analyze security data and mitigate the effect of these attacks becomes a difficult problem. To alleviate these challenges, researchers are looking into various two-dimensional (2D) and three-dimensional (3D) visualization tools to detect, identify, and analyze malicious attacks. These visualization tools often require advanced knowledge in networking, visualization, and information security to operate, navigate, and successfully examine malicious attacks. Novice users, deficient in the required advanced knowledge, may find navigation within these visualization tools difficult. Furthermore, expert users may be limited and costly. We discuss the use of a modern recommender system to aid in navigating within a complex 3D visualization for network security applications. We developed a visualization module called NAVSEC, a recommender system prototype for navigating in 3D network security visualization tools. NAVSEC recommends visualizations and interactions to novice users. Given visualization interaction input from a novice user and expert communities, NAVSEC is instrumental in reducing confusion for a novice user while navigating in a 3D visualization. We illustrate NAVSEC with a use-case from an emulated stealthy scanning attack disguised as a file transfer with multiple concurrent connections. We show that using NAVSEC, a novice user's visualization converges towards a visualization used to identify or detect a suspected attack by an expert user. As a result, NAVSEC can successfully guide the novice user in differentiating between complex network attacks and benign legitimate traffic with step-by-step created visualizations and suggested user interactions."
+    },
+    {
+        "thumbnail": "vizsec2013hao.png",
+        "title": "Flexible web visualization for alert-based network security analytics",
+        "doi": "10.1145/2517957.2517962",
+        "conference": "VizSec 2013",
+        "authors": "Lihua Hao, Christopher G. Healey, Steve E. Hutchinson",
+        "year": "2013",
+        "abstract": "This paper describes a web-based visualization system designed for network security analysts at the U.S. Army Research Laboratory (ARL). Our goal is to provide visual support to the analysts as they investigate security alerts for malicious activity within their systems. Our ARL collaborators identified a number of important requirements for any candidate visualization system. These relate to the analyst's mental models and working environment, and to the visualization tool's configurability, accessibility, scalability, and \"fit\" with existing analysis strategies. To meet these requirements, we designed and implement a web-based tool that uses different types of charts as its core representation framework. A JavaScript charting library (RGraph) was extended to provide the interface flexibility and correlation capabilities needed to support analysts as they explore different hypotheses about a potential attack. We describe key elements of our design, explain how an analyst's intent is used to generate different visualizations, and show how the system's interface allows an analyst to rapidly produce a sequence of visualizations to explore specific details about a potential attack as they arise. We conclude with a discussion of plans to further improve the system, and to collect feedback from our ARL colleagues on its strengths and limitations in real-world analysis scenarios."
+    },
+    {
+        "thumbnail": "vizsec2013alsaleh.png",
+        "title": "Visualizing PHPIDS log files for better understanding of web server attacks",
+        "doi": "10.1145/2517957.2517958",
+        "conference": "VizSec 2013",
+        "authors": "Mansour Alsaleh, Abdullah Alqahtani, Abdulrahman Alarifi, AbdulMalik Al-Salman",
+        "year": "2013",
+        "abstract": "The prevalence and severity of application-layer vulnerabilities increase dramatically their corresponding attacks. In this paper, we present an extension to PHPIDS, an open source intrusion detection and prevention system for PHP-based web applications, to visualize its security log. The proposed extension analyzes PHPIDS logs, correlates these logs with the corresponding web server logs, and plots the security-related events. We use a set of tightly coupled visual representations of HTTP server requests containing known and suspicious malicious content, to provide system administrators and security analysts with fine-grained visual-based querying capabilities. We present multiple case studies to demonstrate the ability of our PHPIDS visualization extension to support security analysts with analytic reasoning and decision making in response to ongoing web server attacks. Experimenting the proposed PHPIDS visualization extension on real-world datasets shows promise for providing complementary information for effective situational awareness."
+    },
+    {
+        "thumbnail": "vizsec2013leschke.png",
+        "title": "Change-link 2.0: a digital forensic tool for visualizing changes to shadow volume data",
+        "doi": "10.1145/2517957.2517960",
+        "conference": "VizSec 2013",
+        "authors": "Timothy R. Leschke, Charles Nicholas",
+        "year": "2013",
+        "abstract": "We present Change Link 2.0, a coordinated and multiple view tool for digital forensics which supports an understanding of how shadow volume data have changed over time. An improvement over the original Change-Link tool [25], Change-Link 2.0 provides an overview, a directory-tree view, a directory content view, and a metadata view in a side-by-side, split-screen, linked-view interface that supports easy browsing and detection of files and directories that have changed over time. This data visualization approach supports faster comprehension of digital forensic data, quick detection of anomalous data, and a better understanding of \"what happened?.\" Input to Change-Link 2.0 is an evidentiary hard drive containing multiple versions of files and directories which have been archived by the Microsoft Volume Shadow Copy Service [28]. Our contributions include data visualization techniques that support an overview of the entire dataset, as well as an understanding of how the directory-tree structure, individual directory content, and file and directory metadata have changed over time. Change-Link 2.0, and its predecessor, are the first data visualization tools that we are aware of which support the forensic examination of shadow volume data."
+    },
+    {
+        "thumbnail": "vizsec2013matuszak.png",
+        "title": "CyberSAVe: situational awareness visualization for cyber security of smart grid systems",
+        "doi": "10.1145/2517957.2517961",
+        "conference": "VizSec 2013",
+        "authors": "William J. Matuszak, Lisa DiPippo, Yan Lindsay Sun",
+        "year": "2013",
+        "abstract": "We offer algorithms and visualization techniques for cyber trust in a Smart Grid system. Cyber trust is evaluated in terms of a mathematical model consisting of availability, detection and false alarm trust values, as well as a model of predictability. We develop a prototype Cyber Situational Awareness Visualization (CyberSAVe) tool to visualize cyber trust. We provide Operational Decision Aids (ODAs) displayed in context with a SCADA management information. We define cyber trust metrics, which are calculated and displayed in real-time in the Metric Assessment System (MAS) of CyberSAVe. We demonstrate the use of trust combined with visualization of trust to detect various types of attacks on the Smart Grid."
+    },
+    {
+        "thumbnail": "vizsec2013humphries.png",
+        "title": "ELVIS: Extensible Log VISualization",
+        "doi": "10.1145/2517957.2517959",
+        "conference": "VizSec 2013",
+        "authors": "Christopher Humphries, Nicolas Prigent, Christophe Bidan, Frédéric Majorczyk",
+        "year": "2013",
+        "abstract": "In this article, we propose ELVIS, a security-oriented log visualization tool that allows security experts to visually explore numerous types of log files through relevant representations. When a log file is loaded into ELVIS, a summary view is displayed. This view is the starting point for exploring the log. The analyst can then choose to explore certain fields or sets of fields from the dataset. To that end, ELVIS selects relevant representations according to the fields chosen by the analyst for display."
+    },
+    {
+        "thumbnail": "vizsec2013karapistoli.png",
+        "title": "SRNET: a real-time, cross-based anomaly detection and visualization system for wireless sensor networks",
+        "doi": "10.1145/2517957.2517964",
+        "conference": "VizSec 2013",
+        "authors": "Eirini Karapistoli, Panagiotis Sarigiannidis, Anastasios A. Economides",
+        "year": "2013",
+        "abstract": "Security concerns are a major deterrent in many applications wireless sensor networks are envisaged to support. To date, various security mechanisms have been proposed for these networks dealing with either Medium Access Control (MAC) layer or network layer security issues, or key management problems. Security visualization is the latest weapon that has been added in the arsenal of a security officer who is tasked with detecting network anomalies by analyzing large amounts of audit data. This paper proposes a novel security visualization system for analyzing and detecting complex patterns of sensor network attacks, called SRNET. Both selective forwarding and jamming attacks are identified through visualizing and analyzing network traffic data on multiple coordinated views, namely the multidimensional crossed view, the crossed view perspective, and the track area view. Through simulations, we demonstrate that SRNET is able to help detect and further identify the root cause of the aforementioned sensor network attacks."
+    },
+    {
+        "thumbnail": "vizsec2013papadopoulos.png",
+        "title": "BGPfuse: using visual feature fusion for the detection and attribution of BGP anomalies",
+        "doi": "10.1145/2517957.2517965",
+        "conference": "VizSec 2013",
+        "authors": "Stavros Papadopoulos, Georgios Theodoridis, Dimitrios Tzovaras",
+        "year": "2013",
+        "abstract": "This paper presents BGPfuse, a scheme for visualizing and exploring BGP (Border Gateway Protocol) path change anomalies. BGPfuse uses a set of BGP features that are capable of quantifying the degree of anomaly of each path change event. Moreover, visual methods are introduced for performing the efficient fusion of these multiple features. The exploitation of the human perception, allows to overcome the static-nature of the existing weight-based fusion approaches. A Parallel Coordinates approach is used to visualize these features, which is further enhanced with filtering capabilities, so as to discriminate between normal and abnormal events. BGPfuse uses multiple linked graph views so as to represent in depth the relationships among the involved Autonomous Systems (ASes), as well as a combined graph view to highlight structural similarities between all the individual feature graphs. The structural similarities as well as the filtering capabilities provided by BGPfuse, enable the analyst to perform visual fusion of the BGP features, so as to detect any suspicious behavior and focus only in the most interesting cases. Experimental demonstration of BGPfuse, shows the analytical potential of the proposed approach by decisively capturing malicious BGP hijacking events."
+    },
+    {
+        "thumbnail": "vizsec2013stoffel.png",
+        "title": "Finding anomalies in time-series using visual correlation for interactive root cause analysis",
+        "doi": "10.1145/2517957.2517966",
+        "conference": "VizSec 2013",
+        "authors": "Florian Stoffel, Fabian Fischer, Daniel A. Keim",
+        "year": "2013",
+        "abstract": "Monitoring computer networks often includes gathering vast amounts of time-series data from thousands of computer systems and network devices. Threshold alerting is easy to accomplish with state-of-the-art technologies. However, to find correlations and similar behaviors between the different devices is challenging. We developed a visual analytics application to tackle this challenge by integrating similarity models and analytics combined with well-known, but task-adapted, time-series visualizations. We show in a case study, how this system can be used to visually identify correlations and anomalies in large data sets and identify and investigate security-related events."
+    },
+    {
+        "thumbnail": "vizsec2012saxe.png",
+        "title": "Visualization of shared system call sequence relationships in large malware corpora",
+        "doi": "10.1145/2379690.2379695",
+        "conference": "VizSec 2012",
+        "authors": "Josh Saxe, David Mentis, Chris Greamo",
+        "year": "2012",
+        "abstract": "We present a novel system for automatically discovering and interactively visualizing shared system call sequence relationships within large malware datasets. Our system's pipeline begins with the application of a novel heuristic algorithm for extracting variable length, semantically meaningful system call sequences from malware system call behavior logs. Then, based on the occurrence of these semantic sequences, we construct a Boolean vector representation of the malware sample corpus. Finally we compute Jaccard indices pairwise over sample vectors to obtain a sample similarity matrix. Our graphical user interface links two visualizations within an interactive display. Our first view is a map-like visualization of similarity among the samples based on a reduced dimensional projection of our similarity matrix. Our second view provides insight into similarities and differences between selected malware samples in terms of the system call sequences they share. We also provide a set of interactive filters based on malicious behavioral traits. The integration of these views into an interactive, linked display allows users to comprehend the overall similarity structure of a malware corpus, inspect how behavioral traits distribute over the corpus, and to drill in to inspect local similarities and differences between samples."
+    },
+    {
+        "thumbnail": "vizsec2012mansmann.jpg",
+        "title": "Visual analysis of complex firewall configurations",
+        "doi": "10.1145/2379690.2379691",
+        "conference": "VizSec 2012",
+        "authors": "Florian Mansmann, Timo Göbel, William Cheswick",
+        "year": "2012",
+        "abstract": "Firewalls have become essential components in the security concept of almost any modern computer network. Due to their relevance and central location in the network, their programming logic often survives several generations of administrators and hardware. Understanding the logic behind a firewall configuration is thus an important but challenging task for a network administrator. In general, there is a tendency to add new rules while old rules are only rarely changed or removed due to unexpected consequences in the network. In this paper we present a visualization tool to support the network administrator in this complex task of understanding firewall rule sets and object group definitions. The tool consists of a hierarchical sunburst visualization, which logically groups rules or object groups according to their common characteristics, a color-linked configuration editor and classical tree view components for rules and object groups. All these components are interactively linked to enable both exploratory and hypotheses testing tasks aimed at understanding the complex functionality of a firewall configuration. To verify our design, we present two case studies on the analysis of rule usage and on nested object groups and collected feedback from five firewall administrators."
+    },
+    {
+        "thumbnail": "vizsec2012fang.png",
+        "title": "Automated tracing and visualization of software security structure and properties",
+        "doi": "10.1145/2379690.2379692",
+        "conference": "VizSec 2012",
+        "authors": "Wenbin Fang, Barton P. Miller, James A. Kupsch",
+        "year": "2012",
+        "abstract": "Visualizing a program's structure and security characteristics is the intrinsic part of in-depth software security assessment. Such an assessment is typically an analyst-driven task. The visualization for security analysis is usually labor-intensive, since analysts need to read documents and source code, synthesize trace data from multiple sources (e.g., system utilities like lsof or strace). To help address this problem, we propose SecSTAR, a tool that dynamically collects the key information from a system and automatically produces the necessary diagrams to support the first steps of widely-used security analysis methodologies, such as Microsoft Threat Modeling and UW/UAB First Principles Vulnerability Assessment (FPVA). SecSTAR uses an efficient dynamic binary instrumentation technique, self-propelled instrumentation, to collect trace data from production systems during runtime then automatically produces diagrams. Furthermore, SecSTAR allows analysts to interactively view and explore diagrams in a web browser. For example, analysts can navigate the diagrams through time and at different levels of detail. We demonstrated the usefulness of using SecSTAR to produce FPVA-style diagrams for a widely used and complex distributed middleware system, the Condor high-throughput scheduling system. Compared with the original manual approach in FPVA, SecSTAR shortened the initial diagram construction time from months to hours and constructed a more accurate diagram visualizing the complete runtime structure of Condor."
+    },
+    {
+        "thumbnail": "vizsec2012erbacher.png",
+        "title": "Visualization design for immediate high-level situational assessment",
+        "doi": "10.1145/2379690.2379693",
+        "conference": "VizSec 2012",
+        "authors": "Robert F. Erbacher",
+        "year": "2012",
+        "abstract": "We present the design of a visualization technique based on the results of a human in the loop process, which relied on network managers and network analysts. This visualization design was directly targeted at supporting tasks identified by the domain experts. This was the need for the ability to provide rapid and immediate assessment of the state of the network and associated hosts. This visualization technique, the Cyber Command Gauge Cluster (CCGC), allows analysts to review the state of the network and locate potentially problematic anomalies, drill down into those anomalies, and prioritize the anomalies for detailed analysis and remediation. By providing a summary representation combined with independent representations of critical parameters, the technique is unique in its ability to aid decision makers in making rapid assessments and prioritization of identified anomalies. While the prototype focuses on network analysis, the technique is devised to provide generalized support for situational awareness in any domain. The generalized parameter mapping allows the technique to be applicable to any level of decision making, from the front-line network analyst to the CIO."
+    },
+    {
+        "thumbnail": "vizsec2012harrison.jpg",
+        "title": "NV: Nessus vulnerability visualization for the web",
+        "doi": "10.1145/2379690.2379694",
+        "conference": "VizSec 2012",
+        "authors": "Lane Harrison, Riley Spahn, Mike Iannacone, Evan Downing, John R. Goodall",
+        "year": "2012",
+        "abstract": "Network vulnerability is a critical component of network security. Yet vulnerability analysis has received relatively little attention from the security visualization community. This paper describes nv, a web-based Nessus vulnerability visualization. Nv utilizes treemaps and linked histograms to allow security analysts and systems administrators to discover, analyze, and manage vulnerabilities on their networks. In addition to visualizing single Nessus scans, nv supports the analysis of sequential scans by showing which vulnerabilities have been fixed, remain open, or are newly discovered. Nv operates completely in-browser, to avoid sending sensitive data to outside servers. We discuss the design of nv, as well as provide case studies demonstrating vulnerability analysis workflows which include a multiple-node testbed and data from the 2011 VAST Challenge."
+    },
+    {
+        "thumbnail": "vizsec2012zhuo.png",
+        "title": "MalwareVis: entity-based visualization of malware network traces",
+        "doi": "10.1145/2379690.2379696",
+        "conference": "VizSec 2012",
+        "authors": "Wei Zhuo, Yacin Nadjin",
+        "year": "2012",
+        "abstract": "This paper presents MalwareVis, a utility that provides security researchers a method to browse, filter, view and compare malware network traces as entities. Specifically, we propose a cell-like visualization model to view the network traces of a malware sample's execution. This model is a intuitive representation of the heterogeneous attributes (protocol, host ip, transmission size, packet number, duration) of a list of network streams associated with a malware instance. We encode these features into colors and basic geometric properties of common shapes. The list of streams is organized circularly in a clock-wise fashion to form an entity. Our design takes into account of the sparse and skew nature of these attributes' distributions and proposes mapping and layout strategies to allow a clear global view of a malware sample's behaviors. We demonstrate MalwareVis on a real-world corpus of malware samples and display their individual activity patterns. We show that it is a simple to use utility that provides intriguing visual representations that facilitate user interaction to perform security analysis."
+    },
+    {
+        "thumbnail": "vizsec2012leschke.png",
+        "title": "Change-Link: a digital forensic tool for visualizing changes to directory trees",
+        "doi": "10.1145/2379690.2379697",
+        "conference": "VizSec 2012",
+        "authors": "Timothy R. Leschke, Alan T. Sherman",
+        "year": "2012",
+        "abstract": "We present Change-Link, a customizable data exploration tool which empowers the user to see visual representations of directories that have changed over time within a computer operating system that supports the Microsoft Volume Shadow Copy Service (VSS). Change-Link displays change information in a split-screen interface comprising an overview of directory change for the entire dataset and a detail view of change for individual directories. Input to Change-Link is an evidence hard drive containing an active file system and previous versions of the directory structure that were archived by the VSS. This approach to browsing change within a directory structure helps a digital forensic examiner understand how a particular computer was used to support criminal activity. Because data that have changed are often the most important, identifying directories that have changed over time directs attention towards data of higher importance. By examining the most important data, digital forensic examiners are better able to keep pace with the data explosion that is making current digital forensic examinations unmanageable. Our contributions include the development of a segmented box and whisker glyph for representing change over time for individual directories, an approach for aggregating VSS data for digital forensic examinations, and a data visualization tool for exploring digital forensic data."
+    },
+    {
+        "thumbnail": "vizsec2012engle.png",
+        "title": "Visualizing distributed memory computations with hive plots",
+        "doi": "10.1145/2379690.2379698",
+        "conference": "VizSec 2012",
+        "authors": "Sophie Engle, Sean Whalen",
+        "year": "2012",
+        "abstract": "A hive plot is a network layout algorithm that uses a parallel coordinate plot in which axes are radially arranged and node position is based on structural properties of that node [8]. We apply hive plots to message-passing communication networks formed by different high performance computing applications at Lawrence Berkeley National Laboratory. Hive plots have advantages over common network visualization methods, abandoning the popular \"hairballs\" of force-directed network layouts and opting instead for a tunable, repeatable, and interpretable view of network-theoretic properties. Small multiples of these hive plots, called hive panels, are analyzed to suggest which properties contribute to accurate classification of application behavior for anomaly detection in high performance computing environments."
+    },
+    {
+        "thumbnail": "vizsec2012fischer.png",
+        "title": "VisTracer: a visual analytics tool to investigate routing anomalies in traceroutes",
+        "doi": "10.1145/2379690.2379701",
+        "conference": "VizSec 2012",
+        "authors": "Fabian Fischer, Johannes Fuchs, Pierre-Antoine Vervier, Florian Mansmann, Olivier Thonnard",
+        "year": "2012",
+        "abstract": "Routing in the Internet is vulnerable to attacks due to the insecure design of the border gateway protocol (BGP). One possible exploitation of this insecure design is the hijacking of IP blocks. Such hijacked IP blocks can then be used to conduct malicious activities from seemingly legitimate IP addresses. In this study we actively trace and monitor the routes to spam sources over several consecutive days after having received a spam message from such a source. However, the real challenge is to distinguish between legitimate routing changes and those ones that are related to systematic misuse in so-called spam campaigns. To combine the strengths of human judgement and computational efficiency, we thus present a novel visual analytics tool named Vistracer in this paper. This tool represents analysis results of our anomaly detection algorithms on large traceroute data sets with the help of several scalable representations to support the analyst to explore, identify and analyze suspicious events and their relations to malicious activities. In particular, pixel-based visualization techniques, novel glyph-based summary representations and a combination of temporal glyphs in a graph representation are used to give an overview of route changes to specific destinations over time. To evaluate our tool, real-world case studies demonstrate the usage of Vistracer in practice on large-scale data sets."
+    },
+    {
+        "thumbnail": "vizsec2012tsigkas.png",
+        "title": "Visual spam campaigns analysis using abstract graphs representation",
+        "doi": "10.1145/2379690.2379699",
+        "conference": "VizSec 2012",
+        "authors": "Orestis Tsigkas, Olivier Thonnard, Dimitrios Tzovaras",
+        "year": "2012",
+        "abstract": "In this work we present a visual analytics tool introducing a new kind of graph visualization that exploits the nodes' degree to provide a simplified and more abstract, yet accurate, representation of the most important elements of a security data set and their inter-relationships. Our visualization technique is designed to address two shortcomings of existing graph visualization techniques: scalability of visualization and comprehensibility of results. The main goal of our visual analytics tool is to provide security analysts with an effective way to reason interactively about various attack phenomena orchestrated by cyber criminals. We demonstrate the use of our tool on a large corpus of spam emails by visualizing spam campaigns performed by spam botnets. In particular, we focus on the analysis of spam sent in March 2011 to understand the impact of the Rustock takedown on the botnet ecosystem. As spam botnets continue to play a significant role in the worldwide spam problem, we show with this application how security visualization based on abstract graphs can help us gain insights into the strategic behavior of spam botnets, and a better understanding of large-scale spammers operations."
+    },
+    {
+        "thumbnail": "vizsec2012veras.png",
+        "title": "Visualizing semantics in passwords: the role of dates",
+        "doi": "10.1145/2379690.2379702",
+        "conference": "VizSec 2012",
+        "authors": "Rafael Veras, Julie Thorpe, Christopher Collins",
+        "year": "2012",
+        "abstract": "We begin an investigation into the semantic patterns underlying user choice in passwords. Understanding semantic patterns provides insight into how people choose passwords, which in turn can be used to inform usable password policies and password guidelines. As semantic patterns are difficult to recognize automatically, we turn to visualization to aid in their discovery. We focus on dates in passwords, designing an interactive visualization for their detailed analysis, and using it to explore the RockYou dataset of over 32 million passwords. Our visualization enabled us to analyze the dataset in many dimensions, including the relationship between dates and their co-occurring text. We use our observations from the visualization to guide further analysis, leading to our findings that nearly 5% of passwords in the RockYou dataset represent pure dates (either purely numerical or mixed alphanumeric representations) and the presence of many patterns within the dates that people choose (such as repetition, the first days of the month, recent years, and holidays)."
+    },
+    {
+        "thumbnail": "vizsec2011nataraj.png",
+        "title": "Malware images: visualization and automatic classification",
+        "doi": "10.1145/2016904.2016908",
+        "conference": "VizSec 2011",
+        "authors": "L. Nataraj, S. Karthikeyan, G. Jacob, B. S. Manjunath",
+        "year": "2011",
+        "abstract": "We propose a simple yet effective method for visualizing and classifying malware using image processing techniques. Malware binaries are visualized as gray-scale images, with the observation that for many malware families, the images belonging to the same family appear very similar in layout and texture. Motivated by this visual similarity, a classification method using standard image features is proposed. Neither disassembly nor code execution is required for classification. Preliminary experimental results are quite promising with 98% classification accuracy on a malware database of 9,458 samples with 25 different malware families. Our technique also exhibits interesting resilience to popular obfuscation techniques such as section encryption."
+    },
+    {
+        "thumbnail": "vizsec2011roveta.png",
+        "title": "BURN: baring unknown rogue networks",
+        "doi": "10.1145/2016904.2016910",
+        "conference": "VizSec 2011",
+        "authors": "Francesco Roveta, Giorgio Caviglia, Luca Di Mario, Stefano Zanero, Federico Maggi, Paolo Ciuccarelli",
+        "year": "2011",
+        "abstract": "Manual analysis of security-related events is still a necessity to investigate non-trivial cyber attacks. This task is particularly hard when the events involve slow, stealthy and large-scale activities typical of the modern cybercriminals' strategy. In this regard, visualization tools can effectively help analysts in their investigations. In this paper, we present BURN, an interactive visualization tool for displaying autonomous systems exhibiting rogue activity that helps at finding misbehaving networks through visual and interactive exploration. Up to seven values are displayed in a single visual element, while avoiding cumbersome and confusing maps. To this end, animations and alpha channels are leveraged to create simple views that highlight relevant activity patterns. In addition, BURN incorporates a simple algorithm to identify migrations of nefarious services across autonomous systems, which can support, for instance, root-cause analysis and law enforcement investigations."
+    },
+    {
+        "thumbnail": "vizsec2011singh.png",
+        "title": "Supporting the cyber analytic process using visual history on large displays",
+        "doi": "10.1145/2016904.2016907",
+        "conference": "VizSec 2011",
+        "authors": "Ankit Singh, Lauren Bradel, Alex Endert, Robert Kincaid, Christopher Andrews, Chris North",
+        "year": "2011",
+        "abstract": "Cyber analytics focuses on increasing the safety and soundness of our digital infrastructure. The volume, size and velocity of these datasets make the analysis challenging on current work environments and tools. A cyber analytics work environment should enable multiple, simultaneous investigations and information foraging, as well as provide a solution space for organizing data. As such, various workflow visualization tools are used to help users track their analysis, reuse effective workflows, and test hypotheses. Also, the use of large display workspaces can provide new opportunities for improving visual analytics in cyber security. In this work, we present a prototype workspace for analysts where the analytic process is maintained in the workspace. Thus, we are able to present analysts with visual states of their data throughout the investigation, in which real-time changes can be made to any previous state, and analysts can backtrack through their investigation."
+    },
+    {
+        "thumbnail": "vizsec2010yu.png",
+        "title": "EMBER: a global perspective on extreme malicious behavior",
+        "doi": "10.1145/1850795.1850796",
+        "conference": "VizSec 2010",
+        "authors": "Tamara Yu, Richard Lippmann, James Riordan, Stephen Boyer",
+        "year": "2010",
+        "abstract": "Geographical displays are commonly used for visualizing wide-spread malicious behavior of Internet hosts. Placing dots on a world map or coloring regions by the magnitude of activity often results in cluttered maps that invariably emphasize population-dense metropolitan areas in developed countries where Internet connectivity is highest. To uncover atypical regions, it is necessary to normalize activity by the local computer population. This paper presents EMBER (Extreme Malicious Behavior viewER), an analysis and display of malicious activity at the city level. EMBER uses a metric called Standardized Incidence Rate (SIR) that is the number of hosts exhibiting malicious behavior per 100,000 available hosts. This metric relies on available data that (1) Maps IP addresses to geographic locations, (2) Provides current city populations, and (3) Provides computer usage penetration rates. Analysis of several months of suspicious source IP addresses from DShield identifies cities with extremely high and low malicious activity rates on a day-by-day basis. In general, cities in a few Eastern European countries have the highest SIRs whereas cities in Japan and South Korea have the lowest. Many of these results are consistent with news reports describing local cyber security policies. A simulation that models how malware spreads preferentially within cities to local IP addresses replicates the long-tailed distribution of city SIRs that was found in the data. This simulation result agrees with past analyses in suggesting that malware often preferentially spreads to local regions with already high levels of malicious activity."
+    },
+    {
+        "thumbnail": "vizsec2010liao.png",
+        "title": "Visualizing graph dynamics and similarity for enterprise network security and management",
+        "doi": "10.1145/1850795.1850799",
+        "conference": "VizSec 2010",
+        "authors": "Qi Liao, Aaron Striegel, Nitesh Chawla",
+        "year": "2010",
+        "abstract": "Managing complex enterprise networks requires an understanding at a finer granularity than traditional network monitoring. The ability to correlate and visualize the dynamics and inter-relationships among various network components such as hosts, users, and applications is non-trivial. In this paper, we propose a visualization approach based on the hierarchical structure of similarity/difference visualization in the context of heterogeneous graphs. The concept of hierarchical visualization starts with the evolution of inter-graph states, adapts to the visualization of intra-graph clustering, and concludes with the visualization of similarity between individual nodes. Our visualization tool, ENAVis (Enterprise Network Activities Visualization), quantifies and presents these important changes and dynamics essential to network operators through a visually appealing and highly interactive manner. Through novel graph construction and transformation, such as network connectivity graphs, MDS graphs, bipartite graphs, and similarity graphs, we demonstrate how similarity/dynamics can be effectively visualized to provide insight with regards to network understanding."
+    },
+    {
+        "thumbnail": "vizsec2010chu.png",
+        "title": "Visualizing attack graphs, reachability, and trust relationships with NAVIGATOR",
+        "doi": "10.1145/1850795.1850798",
+        "conference": "VizSec 2010",
+        "authors": "Matthew Chu, Kyle Ingols, Richard Lippmann, Seth Webster, Stephen Boyer",
+        "year": "2010",
+        "abstract": "A new tool named NAVIGATOR (Network Asset VIsualization: Graphs, ATtacks, Operational Recommendations) adds significant capabilities to earlier work in attack graph visualization. Using NAVIGATOR, users can visualize the effect of server-side, client-side, credential-based, and trust-based attacks. By varying the attacker model, NAVIGATOR can show the current state of the network as well as hypothetical future situations, allowing for advance planning. Furthermore, NAVIGATOR explicitly shows network topology, infrastructure devices, and host-level data while still conveying situational awareness of the network as a whole. This tool is implemented in Java and uses an existing C++ engine for reachability and attack graph calculations."
+    },
+    {
+        "thumbnail": "vizsec2010guenther.png",
+        "title": "Proposing a multi-touch interface for intrusion detection environments",
+        "doi": "10.1145/1850795.1850797",
+        "conference": "VizSec 2010",
+        "authors": "Jeffrey Guenther, Fred Volk, Mark Shaneck",
+        "year": "2010",
+        "abstract": "Network Intrusion Detection is a critical task in today's environment, where network attacks and intrusions are everyday occurrences and state-level cyber warfare is a major concern. At the same time, it is a very difficult task, in part due to the large scale of the data logs where the attack information is hidden, and also in part because of the lack of effective data exploration tools for the intrusion detection tasks. In this work, we examine the current state of visualization techniques and identify some key limitations. Based on this analysis, we propose a novel design for an interface for network security analysts, capitalizing on cutting edge technology, and discuss implications for future research."
+    },
+    {
+        "thumbnail": "vizsec2010goodall.png",
+        "title": "Visual analysis of code security",
+        "doi": "10.1145/1850795.1850800",
+        "conference": "VizSec 2010",
+        "authors": "John R. Goodall, Hassan Radwan, Lenny Halseth",
+        "year": "2010",
+        "abstract": "To help increase the confidence that software is secure, researchers and vendors have developed different kinds of automated software security analysis tools. These tools analyze software for weaknesses and vulnerabilities, but the individual tools catch different vulnerabilities and produce voluminous data with many false positives. This paper describes a system that brings together the results of disparate software analysis tools into a visual environment to support the triage and exploration of code vulnerabilities. Our system allows software developers to explore vulnerability results to uncover hidden trends, triage the most important code weaknesses, and show who is responsible for introducing software vulnerabilities. By correlating and normalizing multiple software analysis tools' data, the overall vulnerability detection coverage of software is increased. A visual overview and powerful interaction allows the user to focus attention on the most pressing vulnerabilities within huge volumes of data, and streamlines the secure software development workflow through integration with development tools."
+    },
+    {
+        "thumbnail": "vizsec2010wagner.png",
+        "title": "PeekKernelFlows: peeking into IP flows",
+        "doi": "10.1145/1850795.1850801",
+        "conference": "VizSec 2010",
+        "authors": "Cynthia Wagner, Gérard Wagener, Radu State, Alexandre Dulaunoy, Thomas Engel",
+        "year": "2010",
+        "abstract": "This paper introduces a new method for getting insights into IP related data flows based on a simple visualization technique that leverages kernel functions defined over spatial and temporal aggregated IP flows. This approach was implemented in a visualization tool called PeekKernelFlows. This tool simplifies the identification of anomalous patterns over a time period. An intuitive adapting image allows network operators to detect attacks. We validated our method on a real use-case scenario, where we inspected traffic of a high-interaction honeypot."
+    },
+    {
+        "thumbnail": "vizsec2010oehler.png",
+        "title": "Visualizing your key for secure phone calls and language independence",
+        "doi": "10.1145/1850795.1850803",
+        "conference": "VizSec 2010",
+        "authors": "Michael Oehler, Dhananjay Phatak, John Krautheim",
+        "year": "2010",
+        "abstract": "We present a method to visualize and authenticate a cryptographically negotiated key for a secure phone call. That is, each caller is presented with a graphical representation of the key and through verbal interaction (i.e., side-channel authentication) they describe what they see. If they agree, the key is authenticated and the secure media session continues. The strength of the approach lies in the vocal recognition of the callers, and their ability to confirm the image displayed by their system. The necessary degree of visual recognition is achieved by using basic shapes, color and count. People, regardless of language or age, can easily identifying these images. Our experience shows that they can communicate what they see with little effort and terminate the call when they differ. We believe that this approach reverses the current trend in security to divest users from the underlying cryptographic principles supporting secure systems by abstracting these principles to a comprehensible and visual form. This paper demonstrates that visualization and the human factor can play a pivotal role in establishing a secure communication channel. This short paper discusses how a key is visualized and provides some initial user feedback. We have named this approach the Short Authentication SymbolS VisuallY (SASSY.)"
+    },
+    {
+        "thumbnail": "vizsec2010glatz.png",
+        "title": "Visualizing host traffic through graphs",
+        "doi": "10.1145/1850795.1850802",
+        "conference": "VizSec 2010",
+        "authors": "Eduard Glatz",
+        "year": "2010",
+        "abstract": "Gaining an overview of host activities is hard when a host is busily exchanging hundreds or thousands of flows over a network. This makes investigating traffic of a suspicious host a tedious task for a security analyst. We propose a novel host traffic visualization technique that reduces this cognitive burden by i) representing traffic through an annotated k-partite graph reflecting familiar Berkeley socket model semantics, ii) employing a host role summarization for effective removal of ephemeral traffic features, and iii) providing classification and filtering techniques for unwanted traffic, which are important for identifying the functional role of port numbers and for visualization. We present the open-source tool HAPviewer and demonstrate how it can visualize a large number of flows through a compact and easily interpretable graph."
+    },
+    {
+        "thumbnail": "vizsec2010harrison.png",
+        "title": "Interactive detection of network anomalies via coordinated multiple views",
+        "doi": "10.1145/1850795.1850806",
+        "conference": "VizSec 2010",
+        "authors": "Lane Harrison, Xianlin Hu, Xiaowei Ying, Aidong Lu, Weichao Wang, Xintao Wu",
+        "year": "2010",
+        "abstract": "This paper presents a new approach to intrusion detection that supports the identification and analysis of network anomalies using an interactive coordinated multiple views (CMV) mechanism. A CMV visualization consisting of a node-link diagram, scatterplot, and time histogram is described that allows interactive analysis from different perspectives, as some network anomalies can only be identified through joint features in the provided spaces. Spectral analysis methods are integrated to provide visual cues that allow identification of malicious nodes. An adjacency-based method is developed to generate the time histogram, which allows users to select time ranges in which suspicious activity occurs. Data from Sybil attacks in simulated wireless networks is used as the test bed for the system. The results and discussions demonstrate that intrusion detection can be achieved with a few iterations of CMV exploration. Quantitative results are collected on the accuracy of our approach and comparisons are made to single domain exploration and other high-dimensional projection methods. We believe that this approach can be extended to anomaly detection in general networks, particularly to Internet networks and social networks."
+    },
+    {
+        "thumbnail": "vizsec2010lian.png",
+        "title": "Traffic classification using visual motifs: an empirical evaluation",
+        "doi": "10.1145/1850795.1850804",
+        "conference": "VizSec 2010",
+        "authors": "Wilson Lian, Fabian Monrose, John McHugh",
+        "year": "2010",
+        "abstract": "In this paper, we explore the effectiveness of using graphical methods for isolating the differences between common application protocols---both in their transient and steady-state behavior. Specifically, we take advantage of the observation that many Internet application protocols proscribe a very specific series of client/server interactions that are clearly visible in the sizes and timing of packets produced at the network layer and below. We show how so-called \"visual motifs\" built on these features can be used to assist a human operator to recognize application protocols in unidentified traffic. From a practical point of view, visual traffic classification can be used, for example, for anomaly detection to verify that all traffic to a web server on TCP port 80 does indeed exhibit the characteristic behavior patterns of HTTP, or for misuse detection to find unauthorized servers or to identify traffic generated by prohibited applications. We present our technique for building a classifier based on the notion of visual motifs and report on our experience using this technique to automatically classify on-the-wire behavioral patterns from network flow data collected from a campus network. Specifically, we analyze over 1 billion flows corresponding to over 5 million sessions on nearly 200 distinct ports and show that our approach achieves high recall and precision."
+    },
+    {
+        "thumbnail": "vizsec2010best.jpg",
+        "title": "Real-time visualization of network behaviors for situational awareness",
+        "doi": "10.1145/1850795.1850805",
+        "conference": "VizSec 2010",
+        "authors": "Daniel M. Best, Shawn Bohn, Douglas Love, Adam Wynne, William A. Pike",
+        "year": "2010",
+        "abstract": "Plentiful, complex, and dynamic data make understanding the state of an enterprise network difficult. Although visualization can help analysts understand baseline behaviors in network traffic and identify off-normal events, visual analysis systems often do not scale well to operational data volumes (in the hundreds of millions to billions of transactions per day) nor to analysis of emergent trends in real-time data. We present a system that combines multiple, complementary visualization techniques coupled with in-stream analytics, behavioral modeling of network actors, and a high-throughput processing platform called MeDICi. This system provides situational understanding of real-time network activity to help analysts take proactive response steps. We have developed these techniques using requirements gathered from the government users for which the tools are being developed. By linking multiple visualization tools to a streaming analytic pipeline, and designing each tool to support a particular kind of analysis (from high-level awareness to detailed investigation), analysts can understand the behavior of a network across multiple levels of abstraction."
+    },
+    {
+        "thumbnail": "vizsec2010rasmussen.png",
+        "title": "Nimble cybersecurity incident management through visualization and defensible recommendations",
+        "doi": "10.1145/1850795.1850807",
+        "conference": "VizSec 2010",
+        "authors": "Jamie Rasmussen, Kate Ehrlich, Steven Ross, Susanna Kirk, Daniel Gruen, John Patterson",
+        "year": "2010",
+        "abstract": "Analysts engaged in real-time monitoring of cybersecurity incidents must quickly and accurately respond to alerts generated by intrusion detection systems. We investigated two complementary approaches to improving analyst performance on this vigilance task: a graph-based visualization of correlated IDS output and defensible recommendations based on machine learning from historical analyst behavior. We tested our approach with 18 professional cybersecurity analysts using a prototype environment in which we compared the visualization with a conventional tabular display, and the defensible recommendations with limited or no recommendations. Quantitative results showed improved analyst accuracy with the visual display and the defensible recommendations. Additional qualitative data from a \"talk aloud\" protocol illustrated the role of displays and recommendations in analysts' decision-making process. Implications for the design of future online analysis environments are discussed."
+    },
+    {
+        "thumbnail": "vizsec2012inoue.png",
+        "title": "DAEDALUS-VIZ: novel real-time 3D visualization for darknet monitoring-based alert system",
+        "doi": "10.1145/2379690.2379700",
+        "conference": "VizSec 2012",
+        "authors": "Daisuke Inoue, Masashi Eto, Koei Suzuki, Mio Suzuki, Koji Nakao",
+        "year": "2012",
+        "abstract": "A darknet is a set of unused IP addresses whose monitoring is an effective way of detecting malicious activities on the Internet. We have developed an alert system called DAEDALUS (direct alert environment for darknet and livenet unified security), which is based on large-scale darknet monitoring. This paper presents a novel real-time 3D visualization engine called DAEDALUS-VIZ that enables operators to grasp visually and in real time a complete overview of alert circumstances and provides highly flexible and tangible interactivity. We describe some case studies and evaluate the performance of DAEDALUS-VIZ."
+    },
+    {
+        "thumbnail": "vizsec2011kintzel.png",
+        "title": "Monitoring large IP spaces with ClockView",
+        "doi": "10.1145/2016904.2016906",
+        "conference": "VizSec 2011",
+        "authors": "Christopher Kintzel, Johannes Fuchs, Florian Mansmann",
+        "year": "2011",
+        "abstract": "The growing amounts of hosts that are placed into the networks represent an enormous challenge to most network administrators who have to monitor these hosts conscientiously. While automatically monitoring the network for slow or failing components has become common practice, defining an acceptable state of the system is only possible to a very limited extent and thus exploratory analysis tasks by real human analysts complement the analysis process. However, this is a problem of scale since it is infeasible to manually inspect thousands of hosts without proper visual support for the tasks of gaining an overview, focusing and retrieving details on demand. In this paper we present a design study to enable visual support for monitoring large IP spaces. In particular, the presented system features 1) a scalable glyph representation in the style of a clock for giving an overview of the activity over time of thousands of hosts in the network, 2) subnet and port views for focusing the analysis to a particular subset of the data and 3) detailed pixel matrix visualizations for interpreting concrete traffic patterns. Furthermore, the tool's feedback loop, which is implemented through interaction capabilities, allows for retrieving new details, refocusing and enhancing of the overview."
+    },
+    {
+        "thumbnail": "vizsec2011boschetti.png",
+        "title": "TVi: a visual querying system for network monitoring and anomaly detection",
+        "doi": "10.1145/2016904.2016905",
+        "conference": "VizSec 2011",
+        "authors": "Alberto Boschetti, Luca Salgarelli, Chris Muelder, Kwan-Liu Ma",
+        "year": "2011",
+        "abstract": "Monitoring, anomaly detection and forensics are essential tasks that must be carried out routinely for every computer network. The sheer volume of data generated by conventional anomaly detection tools such as Snort often makes it difficult to explain the nature of an attack and track down its source. In this paper we present TVi, a tool that combines multiple visual representations of network traces carefully designed and tightly coupled to support different levels of visual-based querying and reasoning required for making sense of complex traffic data. TVi allows analysts to visualize data starting at a high level, providing information related to the entire network, and easily move all the way down to a very low level, providing detailed information about selected hosts, anomalies and attack paths. We designed TVi with scalability and extensibility in mind: its DBMS foundations make it scalable with virtually no limitations, and other state-of-the-art IDS, like Snort or Bro, can be easily integrated in our tool. We demonstrate with two case studies, a synthetic dataset (DARPA 1999) and a real one (University of Brescia, UniBS, 2009), how TVi can enhance a network administrator's ability to reveal hidden patterns in network traces and link their key information so as to easily reveal details that by merely observing Snort's output would go unnoticed. We make TVi's source code available to the community under an Open Source license."
+    },
+    {
+        "thumbnail": "vizsec2011horn.png",
+        "title": "Visual analysis of goal-directed network defense decisions",
+        "doi": "10.1145/2016904.2016909",
+        "conference": "VizSec 2011",
+        "authors": "Chris Horn, Anita D'Amico",
+        "year": "2011",
+        "abstract": "Security visualization has been focused largely on graphic representation of data and relationships between network activity, security sensor output, and attacker activity. Visual analysis tools have not been designed to facilitate the analysis of data related to defender activities and decisions. This paper reports on the initial effort of a research team to use visual analytics to support the modeling of the computer network defense (CND) decision process of an organization. We describe a tool to support the visual analysis of a hierarchical decision structure represented in a portable, file-based database. The tool visualizes and traces relationships between decision goals, sub-goals, decisions, information requirements, and data sources."
+    },
+    {
+        "title": "Visualizing compiled executables for malware analysis",
+        "doi": "10.1109/vizsec.2009.5375539",
+        "conference": "VizSec 2009",
+        "authors": "Daniel A. Quist, Lorie M. Liebrock",
+        "year": "2009",
+        "abstract": "Reverse engineering compiled executables is a task with a steep learning curve. It is complicated by the task of translating assembly into a series of abstractions that represent the overall flow of a program. Most of the steps involve finding interesting areas of an executable and determining their overall functionality. This paper presents a method using dynamic analysis of program execution to visually represent the overall flow of a program. We use the Ether hypervisor framework to covertly monitor a program. The data is processed and presented for the reverse engineer. Using this method the amount of time needed to extract key features of an executable is greatly reduced, improving productivity. A preliminary user study indicates that the tool is useful for both new and experienced users."
+    },
+    {
+        "title": "Visualizing cyber security: Usable workspaces",
+        "doi": "10.1109/vizsec.2009.5375542",
+        "conference": "VizSec 2009",
+        "authors": "Glenn A. Fink, Christopher L. North, Alex Endert, Stuart Rose",
+        "year": "2009",
+        "abstract": "The goal of cyber security visualization is to help analysts increase the safety and soundness of our digital infrastructures by providing effective tools and workspaces. Visualization researchers must make visual tools more usable and compelling than the text-based tools that currently dominate cyber analysts' tool chests. A cyber analytics work environment should enable multiple, simultaneous investigations and information foraging, as well as provide a solution space for organizing data. We describe our study of cyber-security professionals and visualizations in a large, high-resolution display work environment and the analytic tasks this environment can support. We articulate a set of design principles for usable cyber analytic workspaces that our studies have brought to light. Finally, we present prototypes designed to meet our guidelines and a usability evaluation of the environment."
+    },
+    {
+        "title": "Over flow: An overview visualization for network analysis",
+        "doi": "10.1109/vizsec.2009.5375536",
+        "conference": "VizSec 2009",
+        "authors": "Joel Glanfield, Stephen Brooks, Teryl Taylor, Diana Paterson, Christopher Smith, Carrie Gates, John McHugh",
+        "year": "2009",
+        "abstract": "Many network visualizations make the assumption that an administrator has previously determined the subset of data that should be visualized. Yet the problem remains that if the visualization provides no insight into the network events that warrant further consideration, then the administrator must go back to the data to determine what should be visualized next. This is a critical issue given the amount of network data under consideration, only a small portion of which can be examined at any one time. In this paper we present a visualization that provides context for network visualizations by providing a high-level view of network events. Our visualization not only provides a starting point for network visualization, but also reduces the cognitive burden of the analyst by providing a visual paradigm for both the filtering of network data and the selection of network data to drill into and visualize with alternative representations. We demonstrate, through the use of a case study, that our visualization can provide motivation for further investigation into anomalous network activity."
+    },
+    {
+        "title": "Visualization of complex attacks and state of attacked network",
+        "doi": "10.1109/vizsec.2009.5375527",
+        "conference": "VizSec 2009",
+        "authors": "Anatoly Yelizarov, Dennis Gamayunov",
+        "year": "2009",
+        "abstract": "This paper deals with the visualization of complex attacks. Complex attacks is used here to denote the type of attack which consists of a sequence of related events, namely a multistep, DDoS attack and alike. While there are numerous systems to visualize events that occur in the network, most of them are too complex to perceive, and require several visualization modes. This work presents a technique whereby the operator, using visualization alone, is able to display the full picture of events occurring in the network. The main feature of this method is the high recognition ratio of complex attacks as the sequence of constituent common events."
+    },
+    {
+        "title": "Security visualization tools and IPv6 addresses",
+        "doi": "10.1109/vizsec.2009.5375538",
+        "conference": "VizSec 2009",
+        "authors": "David Barrera, P.C. van Oorschot",
+        "year": "2009",
+        "abstract": "Visualization is used by security analysts to help detect patterns and trends in large volumes of network traffic data. With IPv6 slowly being deployed around the world, network intruders are beginning to adapt their tools and techniques to work over IPv6 (vs. IPv4). Many tools for visualizing network activity, while useful for detecting large scale attacks and network behavior anomalies still only support IPv4. In this paper, we explore the current state of IPv6 support in some popular security visualization tools and identify the roadblocks preventing those tools from supporting the new protocol. We propose a filtering technique that helps reduce the occlusion of IPv6 sources on graphs. We also suggest using treemaps for visually representing the vast space of remote addresses in IPv6."
+    },
+    {
+        "title": "Visual analysis of malware behavior using treemaps and thread graphs",
+        "doi": "10.1109/vizsec.2009.5375540",
+        "conference": "VizSec 2009",
+        "authors": "Philipp Trinius, Thorsten Holz, Jan Gobel, Felix C. Freiling",
+        "year": "2009",
+        "abstract": "We study techniques to visualize the behavior of malicious software (malware). Our aim is to help human analysts to quickly assess and classify the nature of a new malware sample. Our techniques are based on a parametrized abstraction of detailed behavioral reports automatically generated by sandbox environments. We then explore two visualization techniques: treemaps and thread graphs. We argue that both techniques can effectively support a human analyst (a) in detecting maliciousness of software, and (b) in classifying malicious behavior."
+    },
+    {
+        "title": "Visualization is better! A comparative evaluation",
+        "doi": "10.1109/vizsec.2009.5375543",
+        "conference": "VizSec 2009",
+        "authors": "John R. Goodall",
+        "year": "2009",
+        "abstract": "User testing is an integral component of user-centered design, but has only rarely been applied to visualization for cyber security applications. This paper describes a comparative evaluation of a visualization application and a traditional interface for analyzing network packet captures, that was conducted as part of the user-centered design process. Structured, well-defined tasks and exploratory, open-ended tasks were completed with both tools. Accuracy and efficiency were measured for the well-defined tasks, number of insights was measured for exploratory tasks and user perceptions were recorded for each tool. The results of this evaluation demonstrated that users performed significantly more accurately in the well-defined tasks, discovered a higher number of insights and demonstrated a clear preference for the visualization tool. The study presented here may be useful for future visualization for network security visualization evaluation designers. Some of the challenges and lessons learned are described."
+    },
+    {
+        "title": "A visual analytic framework for exploring relationships in textual contents of digital forensics evidence",
+        "doi": "10.1109/vizsec.2009.5375541",
+        "conference": "VizSec 2009",
+        "authors": "T.J. Jankun-Kelly, David Wilson, Andrew S. Stamps, Josh Franck, Jeffery Carver, J. Edward Swan",
+        "year": "2009",
+        "abstract": "We describe the development of a set of tools for analyzing the textual contents of digital forensic evidence for the purpose of enhancing an investigator's ability to discover information quickly and efficiently. By examining the textual contents of files and unallocated space, relationships between sets of files and clusters can be formed based on the information that they contain. Using the information gathered from the evidence through the analysis tool, the visualization tool can be used to search through the evidence in an organized and efficient manner. The visualization depicts both the frequency of relevant terms and their location on disk. We also discuss a task analysis with forensics officers to motivate the design."
+    },
+    {
+        "title": "Visualizing firewall configurations using created voids",
+        "doi": "10.1109/vizsec.2009.5375546",
+        "conference": "VizSec 2009",
+        "authors": "Shaun P. Morrissey, Georges Grinstein",
+        "year": "2009",
+        "abstract": "Security configuration files are created and edited as text files. These files are the essential definition and control of the behavior of security devices. Despite their significant size, complexity, and the possibility of interaction between entries, no visually sophisticated tools exist that explicitly capture and visualize problematic interactions between rules to aid in the comprehension and modification of configuration files. Our initial work on the direct visualization of firewall configurations showed the limitations of visualizing just the range of packets that can be accepted. To visually capture the interactions between rules, we introduce the concept of a created void. Created voids capture the information about destructive interactions between rules in a firewall ruleset, where an overlap between a deny rule prevents that packet from reaching an accept rule later in the ruleset. We present a lossless five-dimensional visualization of the convex solid decomposition of the set of acceptable packets from a firewall configuration, augmented with visual representations of created voids. This interactive visualization is embedded in a simple firewall ruleset editor, allowing the user to investigate the effect of changes in the ruleset."
+    },
+    {
+        "title": "Effective Visualization of File System Access-Control",
+        "doi": "10.1007/978-3-540-85933-8_2",
+        "conference": "VizSec 2008",
+        "authors": "Alexander Heitzmann, Bernardo Palazzi, Charalampos Papamanthou, Roberto Tamassia",
+        "year": "2008",
+        "abstract": "In this paper, we present a visual representation of access control permissions in a standard hierarchical file system. Our visualization of file permissions leverages treemaps, a popular graphical representation of hierarchical data. In particular, we present a visualization of access control for the NTFS file system that can help a non-expert user understand and manipulate file system permissions in a simple and effective way. While our examples are based on NTFS, our approach can be used for many other hierarchical file systems as well."
+    },
+    {
+        "title": "Visualizing keyboard pattern passwords",
+        "doi": "10.1109/vizsec.2009.5375544",
+        "conference": "VizSec 2009",
+        "authors": "Dino Schweitzer, Jeff Boleng, Colin Hughes, Louis Murphy",
+        "year": "2009",
+        "abstract": "Passwords are a fundamental security vulnerability in many systems. Several researchers have investigated the tradeoff between password memorability versus resiliency to cracking and have looked at alternative systems such as graphical passwords and biometrics. To create stronger passwords, many systems enforce rules regarding the required length and types of characters passwords must contain. Another suggested approach is to use passphrases to combat dictionary attacks. One common trick used to remember passwords that conform to complex rules is to select a pattern of keys on the keyboard. While appearing random, the pattern is easy to remember. The purpose of this research was to investigate how often patterns are used, whether patterns could be classified into common categories, and whether those categories could be used to attack and defeat pattern-based passwords. Visualization techniques were used to collect data and assist in pattern categorization. The approach successfully identified two out of eleven passwords in a real-world password file that were not discovered with a traditional dictionary attack. This paper will present the approach used to collect and categorize patterns, and describe the resulting attack method that successfully identified passwords in a live system."
+    },
+    {
+        "title": "Visual Analysis of Program Flow Data with Data Propagation",
+        "doi": "10.1007/978-3-540-85933-8_3",
+        "conference": "VizSec 2008",
+        "authors": "Ying Xia, Kevin Fairbanks, Henry Owen",
+        "year": "2008",
+        "abstract": "Host based program monitoring tools are an essential part of maintaining proper system integrity due to growing malicious network activity. As systems become more complicated, the quantity of data collected by these tools often grows beyond the ability of analysts to easily comprehend in a short amount of time. In this paper, we present a method for visual exploration of a system program flow over time to aid in the detection and identification of significant events. This allows automatic accentuation of programs with irregular file access and child process propagation, which results in more efficient forensic analysis and system recovery times."
+    },
+    {
+        "title": "Visual Reverse Engineering of Binary and Data Files",
+        "doi": "10.1007/978-3-540-85933-8_1",
+        "conference": "VizSec 2008",
+        "authors": "Gregory Conti, Erik Dean, Matthew Sinda, Benjamin Sangster",
+        "year": "2008",
+        "abstract": "The analysis of computer files poses a difficult problem for security researchers seeking to detect and analyze malicious content, software developers stress testing file formats for their products, and for other researchers seeking to understand the behavior and structure of undocumented file formats. Traditional tools, including hex editors, disassemblers and debuggers, while powerful, constrain analysis to primarily text based approaches. In this paper, we present design principles for file analysis which support meaningful investigation when there is little or no knowledge of the underlying file format, but are flexible enough to allow integration of additional semantic information, when available. We also present results from the implementation of a visual reverse engineering system based on our analysis. We validate the efficacy of both our analysis and our system with case studies depicting analysis use cases where a hex editor would be of limited value. Our results indicate that visual approaches help analysts rapidly identify files, analyze unfamiliar file structures, and gain insights that inform and complement the current suite of tools currently in use."
+    },
+    {
+        "title": "A Term Distribution Visualization Approach to Digital Forensic String Search",
+        "doi": "10.1007/978-3-540-85933-8_4",
+        "conference": "VizSec 2008",
+        "authors": "Moses Schwartz, L. M. Liebrock",
+        "year": "2008",
+        "abstract": "Digital forensic string search is vital to the forensic discovery process, but there has been little research on improving tools or methods for this task. We propose the use of term distribution visualizations to aid digital forensic string search tasks. Our visualization model enables an analyst to quickly identify relevant sections of a text and provides brushing and drilling-down capabilities to support analysis of large datasets. Initial user study results suggest that the visualizations are useful for information retrieval tasks, but further studies must be performed to obtain statistically significant results and to determine specific utility in digital forensic investigations."
+    },
+    {
+        "title": "BGPeep: An IP-Space Centered View for Internet Routing Data",
+        "doi": "10.1007/978-3-540-85933-8_10",
+        "conference": "VizSec 2008",
+        "authors": "James Shearer, Kwan-Liu Ma, Toby Kohlenberg",
+        "year": "2008",
+        "abstract": "We present BGPeep, a tool for visualizing Border Gateway Protocol traffic at a detailed level, using a novel depiction of IP-space. This new visualization renders the network prefixes involved with such traffic using a method that leverages the peculiarities of BGP traffic to gain insight and highlight potential router misconfigurations. BGPeep utilizes a simple interface and several methods of interaction to allow users to quickly focus on the data of interest. Our tool highlights aspects of BGP data which have received less attention in previous visualization applications, in order to help form a more complete picture of this vital part of the Internet communications infrastructure."
+    },
+    {
+        "title": "GARNET: A Graphical Attack Graph and Reachability Network Evaluation Tool",
+        "doi": "10.1007/978-3-540-85933-8_5",
+        "conference": "VizSec 2008",
+        "authors": "Leevar Williams, Richard Lippmann, Kyle Ingols",
+        "year": "2008",
+        "abstract": "Attack graphs enable computation of important network security metrics by revealing potential attack paths an adversary could use to gain control of network assets. This paper presents GARNET (Graphical Attack graph and Reachability Network Evaluation Tool), an interactive visualization tool that facilitates attack graph analysis. It provides a simplified view of critical steps that can be taken by an attacker and of host-to-host network reachability that enables these exploits. It allows users to perform “what-if” experiments including adding new zero-day attacks, following recommendations to patch software vulnerabilities, and changing the attacker starting location to analyze external and internal attackers. Users can also compute and view metrics of assets captured versus attacker effort to compare the security of complex networks. For adversaries with three skill levels, it is possible to create graphs of assets captured versus attacker steps and the number of unique exploits required. GARNET is implemented as a Java application and is built on top of an existing C++ engine that performs reachability and attack graph computations. An initial round of user evaluations described in this paper led to many changes that significantly enhance usability."
+    },
+    {
+        "title": "Improving Attack Graph Visualization through Data Reduction and Attack Grouping",
+        "doi": "10.1007/978-3-540-85933-8_7",
+        "conference": "VizSec 2008",
+        "authors": "John Homer, Ashok Varikuti, Xinming Ou, Miles A. McQueen",
+        "year": "2008",
+        "abstract": "Various tools exist to analyze enterprise network systems and to produce attack graphs detailing how attackers might penetrate into the system. These attack graphs, however, are often complex and difficult to comprehend fully, and a human user may find it problematic to reach appropriate configuration decisions. This paper presents methodologies that can 1) automatically identify portions of an attack graph that do not help a user to understand the core security problems and so can be trimmed, and 2) automatically group similar attack steps as virtual nodes in a model of the network topology, to immediately increase the understandability of the data. We believe both methods are important steps toward improving visualization of attack graphs to make them more useful in configuration management for large enterprise networks. We implemented our methods using one of the existing attack-graph toolkits. Initial experimentation shows that the proposed approaches can 1) significantly reduce the complexity of attack graphs by trimming a large portion of the graph that is not needed for a user to understand the security problem, and 2) significantly increase the accessibility and understandability of the data presented in the attack graph by clearly showing, within a generated visualization of the network topology, the number and type of potential attacks to which each host is exposed."
+    },
+    {
+        "title": "A Graph-Theoretic Visualization Approach to Network Risk Analysis",
+        "doi": "10.1007/978-3-540-85933-8_6",
+        "conference": "VizSec 2008",
+        "authors": "Scott O’Hare, Steven Noel, Kenneth Prole",
+        "year": "2008",
+        "abstract": "This paper describes a software system that provides significant new capabilities for visualization and analysis of network attack graphs produced through Topological Vulnerability Analysis (TVA). The TVA approach draws on a database of known exploits and system vulnerabilities to provide a connected graph representing possible cyber-attack paths within a given network.  Our visualization approach builds on the extensive functionality of the yWorks suite of graphing tools, providing customized new capabilities for importing, displaying, and interacting with large scale attack graphs, to facilitate comprehensive network security analysis.  These visualization capabilities include clustering of attack graph elements for reducing visual complexity, a hierarchical dictionary of attack graph elements, high-level overview with detail drilldown, interactive on-graph hardening of attacker exploits, and interactive graph layouts.  This new visualization system is an integrated component of the CAULDRON attack graph tool developed at George Mason University."
+    },
+    {
+        "title": "Show Me How You See: Lessons from Studying Computer Forensics Experts for Visualization",
+        "doi": "10.1007/978-3-540-85933-8_8",
+        "conference": "VizSec 2008",
+        "authors": "T. J. Jankun-Kelly, Josh Franck, David Wilson, Jeffery Carver, David Dampier, J. Edward Swan",
+        "year": "2008",
+        "abstract": "As the first part of a Analyze-Visualize-Validate cycle, we have initiated a domain analysis of email computer forensics to determine where visualization may be beneficial. To this end, we worked with police detectives and other forensics professionals. However, the process of designing and executing such a study with real-world experts has been a non-trivial task. This paper presents our efforts in this area and the lessons learned as guidance for other practitioners."
+    },
+    {
+        "thumbnail": "vizsec2008fischer.png",
+        "title": "Large-Scale Network Monitoring for Visual Analysis of Attacks",
+        "doi": "10.1007/978-3-540-85933-8_11",
+        "conference": "VizSec 2008",
+        "authors": "Fabian Fischer, Florian Mansmann, Daniel A. Keim, Stephan Pietzko, Marcel Waldvogel",
+        "year": "2008",
+        "abstract": "The importance of the Internet and our dependency on computer networks are steadily growing, which results in high costs and substantial consequences in case of successful intrusions, stolen data, and interrupted services. At the same time, a trend towards massive attacks against the network infrastructure is noticeable. Therefore, monitoring large networks has become an important field in practice and research. Through monitoring systems, attacks can be detected and analyzed to gain knowledge of how to better protect the network in the future. In the scope of this paper, we present a system, called NFlowVis, to analyze NetFlow data using a relational database system. NetFlow records are linked with alerts from an intrusion detection system to enable efficient exploration of suspicious activity within the monitored network. Within the system, the monitored network is mapped to a TreeMap visualization, the attackers are arranged at the borders and linked using splines parameterized with prefix information. In a series of case studies, we demonstrate how the tool can be used to judge the relevance of alerts, to reveal massive distributed attacks, and to analyze service usage within a network."
+    },
+    {
+        "title": "Visualizing Real-Time Network Resource Usage",
+        "doi": "10.1007/978-3-540-85933-8_12",
+        "conference": "VizSec 2008",
+        "authors": "Ryan Blue, Cody Dunne, Adam Fuchs, Kyle King, Aaron Schulman",
+        "year": "2008",
+        "abstract": "We present NetGrok, a tool for visualizing computer network usage in real-time. NetGrok combines well-known information visualization techniques—overview, zoom & filter, details on demand—with network graph and treemap visualizations. NetGrok integrates these tools with a shared data store that can read PCAP-formatted network traces, capture traces from a live interface, and filter the data set dynamically by bandwidth, number of connections, and time. We performed an expert user case study that demonstrates the benefits of applying these techniques to static and real-time streaming packet data. Our user study shows NetGrok serves as an “excellent real-time diagnostic,” enabling fast understanding of network resource usage and rapid anomaly detection."
+    },
+    {
+        "title": "Wireless Cyber Assets Discovery Visualization",
+        "doi": "10.1007/978-3-540-85933-8_13",
+        "conference": "VizSec 2008",
+        "authors": "Kenneth Prole, John R. Goodall, Anita D. D’Amico, Jason K. Kopylec",
+        "year": "2008",
+        "abstract": "As wireless networking has become near ubiquitous, the ability to discover, identify, and locate mobile cyber assets over time is becoming increasingly important to information security auditors, penetration testers, and network administrators. We describe a new prototype called MeerCAT (Mobile Cyber Asset Tracks) for visualizing wireless assets, including their location, security attributes, and relationships. This paper highlights our latest iteration of our prototype for visual analysis of wireless asset data, including user requirements and the various coordinated visualizations."
+    },
+    {
+        "title": "Existence Plots: A Low-Resolution Time Series for Port Behavior Analysis",
+        "doi": "10.1007/978-3-540-85933-8_16",
+        "conference": "VizSec 2008",
+        "authors": "Jeff Janies",
+        "year": "2008",
+        "abstract": "An existence plot is a low-resolution visualization that concurrently represents the activity of all 216 ports on a single host. By doing so, we are able to show patterns of port usage which can indicate server activity and demonstrate scanning. In this work we introduce the existence plot as a visualization and discuss its use in gaining insight into a host’s behavior."
+    },
+    {
+        "title": "A Task Centered Framework for Computer Security Data Visualization",
+        "doi": "10.1007/978-3-540-85933-8_9",
+        "conference": "VizSec 2008",
+        "authors": "Xiaoyuan Suo, Ying Zhu, Scott Owen",
+        "year": "2008",
+        "abstract": "Most of the existing computer security visualization programs are data centered. However, some studies have shown that task centered visualization is perhaps more effective. To test this hypothesis, we have developed a new framework of visualization and apply it to computer security visualization. This framework provides a new way for users to interact with data set and potentially will provide new insights into how visualization can be better constructed to serve users’ specific tasks."
+    },
+    {
+        "title": "Network Traffic Exploration Application: A Tool to Assess, Visualize, and Analyze Network Security Events",
+        "doi": "10.1007/978-3-540-85933-8_18",
+        "conference": "VizSec 2008",
+        "authors": "Grant Vandenberghe",
+        "year": "2008",
+        "abstract": "Defence Research and Development Canada (DRDC) is developing a security event / packet analysis tool that is useful for analyzing a wide range of network attacks. The tool allows the security analyst to visually analyze a security event from a broad range of visual perspectives using a variety of detection algorithms. The tool is easy to extend and can be used to generate automated analysis scripts. The system architecture is presented and its capabilities are demonstrated through the analysis of several covert tunnels."
+    },
+    {
+        "title": "Backhoe, a Packet Trace and Log Browser",
+        "doi": "10.1007/978-3-540-85933-8_15",
+        "conference": "VizSec 2008",
+        "authors": "Sergey Bratus, Axel Hansen, Fabio Pellacini, Anna Shubina",
+        "year": "2008",
+        "abstract": "We present Backhoe, a tool for browsing packet trace or other event logs that makes it easy to spot “statistical novelties” in the traffic, i.e. changes in the character of frequency distributions of feature values and in mutual relationships between pairs of features. Our visualization uses feature entropy and mutual information displays as either the top-level summary of the dataset or alongside the data. Our tool makes it easy to switch between absolute and conditional metrics, and observe their variations at a glance. We successfully used Backhoe for analysis of proprietary protocols."
+    },
+    {
+        "title": "Using Time Series 3D AlertGraph and False Alert Classification to Analyse Snort Alerts",
+        "doi": "10.1007/978-3-540-85933-8_17",
+        "conference": "VizSec 2008",
+        "authors": "Shahrulniza Musa, David J. Parish",
+        "year": "2008",
+        "abstract": "A top-level overview of Snort alerts using 3D visual and alert classification is discussed. This paper describes the top-level view (time series 3D AlertGraph) with the integration of alert classification to visualise Snort alerts. The advantages of using this view are (1) It summarised the alerts into different colours to indicate the quantity of alerts from (SRCIP, DPORT) pairs; (2) It used alert classification to highlight the true alerts; (3) Through interaction tools, the alerts can be highlighted according to the source IP, destination IP or destination port;. (4) A large numbers of alerts can be viewed in a single display and (5) A temporal characteristic of attacks can be discovered."
+    },
+    {
+        "title": "Adapting Personas for Use in Security Visualization Design",
+        "doi": "10.1007/978-3-540-78243-8_3",
+        "conference": "VizSec 2007",
+        "authors": "J. Stoll, D. McColgin, M. Gregory, V. Crow, W. K. Edwards",
+        "year": "2007",
+        "abstract": "The development of security visualization applications must involve the user in the design process in order to create usable systems. However, it is all too easy to lose track of the user during the design and development process, even though upfront investment in extensive user requirements gathering has proven benefits. To address this challenge, we adapt a user-centered design method called personas that enables effective requirements capture for varying scopes of requirements-gathering efforts, and, when used properly, keeps the user involved at every step of the process from design to evaluation."
+    },
+    {
+        "title": "The Real Work of Computer Network Defense Analysts",
+        "doi": "10.1007/978-3-540-78243-8_2",
+        "conference": "VizSec 2007",
+        "authors": "A. D’Amico, K. Whitley",
+        "year": "2007",
+        "abstract": "This paper reports on investigations of how computer network defense (CND) analysts conduct their analysis on a day-to-day basis and discusses the implications of these cognitive requirements for designing effective CND visualizations. The supporting data come from a cognitive task analysis (CTA) conducted to baseline the state of the practice in the U.S. Department of Defense CND community. The CTA collected data from CND analysts about their analytic goals, workflow, tasks, types of decisions made, data sources used to make those decisions, cognitive demands, tools used and the biggest challenges that they face. The effort focused on understanding how CND analysts inspect raw data and build their comprehension into a diagnosis or decision, especially in cases requiring data fusion and correlation across multiple data sources. This paper covers three of the findings from the CND CTA: (1) the hierarchy of data created as the analytical process transforms data into security situation awareness; (2) the definition and description of different CND analysis roles; and (3) the workflow that analysts and analytical organizations engage in to produce analytic conclusions."
+    },
+    {
+        "title": "NetFlow Data Visualization Based on Graphs",
+        "doi": "10.1007/978-3-540-85933-8_14",
+        "conference": "VizSec 2008",
+        "authors": "Pavel Minarik, Tomas Dymacek",
+        "year": "2008",
+        "abstract": "We present an innovative approach to NetFlow data processing and visualization developed at Masaryk University in Brno. Our visualization method based on graphs bridges the gap between highly aggregated information visualization represented by charts and too much detailed information represented by the log files. In our visualization method the graph nodes stand for network devices and oriented edges represent communication between these devices. We also present the utilization of external data sources (DNS, port names, etc.), which helps to present NetFlow data in more intuitive way. Hence this approach is very natural one for both network administrators and non-specialists. Based on these methods a proof-of-concept tool called NetFlow Visualizer has been developed and is now offered as an plug-in for the NetFlow probes."
+    },
+    {
+        "title": "Measuring the Complexity of Computer Security Visualization Designs",
+        "doi": "10.1007/978-3-540-78243-8_4",
+        "conference": "VizSec 2007",
+        "authors": "X. Suo, Y. Zhu, G. Scott Owen",
+        "year": "2007",
+        "abstract": "We present a novel method to measure the complexity of computer security visualization designs. The complexity is measured in terms of visual integration, number of separable dimensions for each visual unit, the complexity of interpreting the visual attributes, and the efficiency of visual search. Visualization developers can use this method to quickly evaluate multiple design choices in the early stage of their design before any user study can be conducted. To demonstrate this method, we have conducted complexity analysis on two open source security visualization tools – TNV and RUMINT."
+    },
+    {
+        "title": "NetBytes Viewer: An Entity-Based NetFlow Visualization Utility for Identifying Intrusive Behavior",
+        "doi": "10.1007/978-3-540-78243-8_7",
+        "conference": "VizSec 2007",
+        "authors": "T. Taylor, S. Brooks, J. McHugh",
+        "year": "2007",
+        "abstract": "NetBytes Host Viewer is an interactive visualization tool designed to show the historical network flow data per port of an individual host machine or subnet on a network over time, using a 3D impulse graph plot. Such visualizations allow network administrators to quickly and effectively diagnose infected or malfunctioning computers by viewing data transmission patterns for each port on the entity. NetBytes has a set of interactive features which help to deal with the problems associated with displaying a 3D graph on a 2D screen. First, NetBytes offers a “selector” mode which allows the user to highlight specific ports (or times) on the graph using a slider and snap buttons. From the selector, the user can launch a set of 2D graphs (Bytes vs. Time and Bytes vs. Ports) to acquire more detailed information about the host with less clutter. Lastly, the user is able to rotate the 3D graph in any direction to mitigate occlusion. The long term objectives of this work include the integration of the NetBytes Viewer with complementary visualizations of the overall network. This application will integrate with a larger network analysis tool and be utilized as a drill-down mechanism."
+    },
+    {
+        "title": "Integrated Environment Management for Information Operations Testbeds",
+        "doi": "10.1007/978-3-540-78243-8_5",
+        "conference": "VizSec 2007",
+        "authors": "T. H. Yu, B. W. Fuller, J. H. Bannick, L. M. Rossey, R. K. Cunningham",
+        "year": "2007",
+        "abstract": "Network testbeds are indispensable for developing and testing information operations (IO) technologies. Lincoln Laboratory has been developing LARIAT to support IO test design, development, and execution with high-fidelity user simulations. As LARIAT becomes more advanced, enabling larger and more realistic and complex tests, effective management software has proven essential. In this paper, we present the Director, a graphical user interface that enables experimenters to quickly define, control, and monitor reliable IO tests on a LARIAT testbed. We describe how the interface simplifies these key elements of testbed operation by providing the experimenter with an appropriate system abstraction, support for basic and advanced usage, scalable performance and visualization in large networks, and interpretable and correct feedback."
+    },
+    {
+        "title": "High Level Internet Scale Traffic Visualization Using Hilbert Curve Mapping",
+        "doi": "10.1007/978-3-540-78243-8_10",
+        "conference": "VizSec 2007",
+        "authors": "B. Irwin, N. Pilkington",
+        "year": "2007",
+        "abstract": "A high level analysis tool was developed for aiding in the analysis of large volumes of network telescope traffic, and in particular the comparisons of data collected from multiple telescope sources. Providing a visual means for the evaluation of worm propagation algorithms has also been achieved. By using a Hilbert curve as a means of ordering points within the visualization space, the concept of nearness between numerically sequential network blocks was preserved. The design premise and initial results obtained using the tool developed are discussed, and a number of future extensions proposed."
+    },
+    {
+        "title": "Visualizing Network Security Events Using Compound Glyphs from a Service-Oriented Perspective",
+        "doi": "10.1007/978-3-540-78243-8_9",
+        "conference": "VizSec 2007",
+        "authors": "J. Pearlman, P. Rheingans",
+        "year": "2007",
+        "abstract": "Network security is the complicated field of controlling access within a computer network. One of the difficulties in network security is detecting the presence, severity, and type of a network attack. Knowledge of such an attack is used to mitigate its damage and prevent such attacks from occurring in the future. We present a new visualization of a computer network for security purposes by approaching the problem from a service-oriented perspective. This approach involves a node graph visualization where each node is represented as a compound glyph, which gives details about the network activity for the specific node based upon its service usage. Furthermore, we visualize temporal activity using time slicing techniques in the compound glyph to give more details about the network and allow interactive controls for an administrator to actively monitor a network in order to react to security events quickly. Our resulting visualizations of networks successfully identified and described denial of service (DoS) and compromised network attacks."
+    },
+    {
+        "title": "VisAlert: From Idea to Product",
+        "doi": "10.1007/978-3-540-78243-8_11",
+        "conference": "VizSec 2007",
+        "authors": "S. Foresti, J. Agutter",
+        "year": "2007",
+        "abstract": "Visalert is a visualization system designed to increase the monitoring and correlation capabilities of computer network analysts engaged in intrusion detection and prevention. VisAlert facilitates and promotes situational awareness in complex network environments by providing the user with a holistic view of network security to aid in the detection of sophisticated and malicious activities, and ability to zoom in-out information of interest. The system provides a mechanism to access data from multiple databases, and to correlate who, what, when and where. This chapter describes the design process that enabled the team to go from the conception of rough visual sketches to the implementation and deployment of a finished software. In addition, the chapter describes the issues that the interdisciplinary team had to address to carry the project from idea to product."
+    },
+    {
+        "title": "Visual Analysis of Corporate Network Intelligence: Abstracting and Reasoning on Yesterdays for Acting Today",
+        "doi": "10.1007/978-3-540-78243-8_8",
+        "conference": "VizSec 2007",
+        "authors": "D. Lalanne, E. Bertini, P. Hertzog, P. Bados",
+        "year": "2007",
+        "abstract": "This article proposes to go beyond the standard visualization application for security management, which is usually day-to-day monitoring. For this purpose, it introduces a pyramidal vision of the network intelligence and of the respective role of information visualization to support not only security engineers, but also analysts and managers. The paper first introduces our holistic vision and discusses the need to reduce the complexity of network data in order to abstract analysis and trends over time and further to convert decisions into actions. The article further introduces the analysis tasks we are currently tackling. The two following sections present two different ways to overview network data concentrating on specific dimensions of network security: user and application centric firstly, and alarm and temporal centric secondly. Finally this article concludes with the limitations and challenges introduced by our approach."
+    },
+    {
+        "title": "Visually Understanding Jam Resistant Communication",
+        "doi": "10.1007/978-3-540-78243-8_12",
+        "conference": "VizSec 2007",
+        "authors": "D. Schweitzer, L. Baird, W. Bahn",
+        "year": "2007",
+        "abstract": "The primary goal of information security is to ensure the confidentiality, integrity, authenticity, and availability of information. Availability is often relegated to a discussion of denial of service attacks on network resources. Another form of denying availability is to prevent communication through the use of traditional jamming techniques. At the United States Air Force Academy Center for Information Security, we have been working on a new algorithm, BBC, which is based on a new type of coding theory known as concurrent codes that is resistant to traditional jamming techniques. While the formal definition and proofs of concurrent codes can be daunting, the algorithm’s effectiveness can be easily conveyed and appreciated through visual demonstration. This paper briefly introduces concurrent codes and describes an interactive applet that visually demonstrates the algorithm’s effectiveness in a noisy environment."
+    },
+    {
+        "title": "Putting Security in Context: Visual Correlation of Network Activity with Real-World Information",
+        "doi": "10.1007/978-3-540-78243-8_14",
+        "conference": "VizSec 2007",
+        "authors": "W. A. Pike, C. Scherrer, S. Zabriskie",
+        "year": "2007",
+        "abstract": "To effectively identify and respond to cyber threats, computer security analysts must understand the scale, motivation, methods, source, and target of an attack. Central to developing this situational awareness is the analyst’s world knowledge that puts these attributes in context. What known exploits or new vulnerabilities might an anomalous traffic pattern suggest? What organizational, social, or geopolitical events help forecast or explain attacks and anomalies? Few visualization tools support creating, maintaining, and applying this knowledge of the threat landscape. Through a series of formative workshops with practicing security analysts, we have developed a visualization approach inspired by the human process of contextualization; this system, called NUANCE, creates evolving behavioral models of network actors at organizational and regional levels, continuously monitors external textual information sources for themes that indicate security threats, and automatically determines if behavior indicative of those threats is present on a network."
+    },
+    {
+        "title": "An Interactive Attack Graph Cascade and Reachability Display",
+        "doi": "10.1007/978-3-540-78243-8_15",
+        "conference": "VizSec 2007",
+        "authors": "L. Williams, R. Lippmann, K. Ingols",
+        "year": "2007",
+        "abstract": "Attack graphs for large enterprise networks improve security by revealing critical paths used by adversaries to capture network assets. Even with simplification, current attack graph displays are complex and difficult to relate to the underlying physical networks. We have developed a new interactive tool intended to provide a simplified and more intuitive understanding of key weaknesses discovered by attack graph analysis. Separate treemaps are used to display host groups in each subnet and hosts within each treemap are grouped based on reachability, attacker privilege level, and prerequisites. Users position subnets themselves to reflect their own intuitive grasp of network topology. Users can also single-step the attack graph to successively add edges that cascade to show how attackers progress through a network and learn what vulnerabilities or trust relationships allow critical steps. Finally, an integrated reachability display demonstrates how filtering devices affect host-to-host network reachability and influence attacker actions. This display scales to networks with thousands of hosts and many subnets. Rapid interactivity has been achieved because of an efficient C++ computation engine (a program named NetSPA) that performs attack graph and reachability computations, while a Java application manages the display and user interface."
+    },
+    {
+        "title": "Intelligent Classification and Visualization of Network Scans",
+        "doi": "10.1007/978-3-540-78243-8_16",
+        "conference": "VizSec 2007",
+        "authors": "C. Muelder, L. Chen, R. Thomason, K. -L. Ma, T. Bartoletti",
+        "year": "2007",
+        "abstract": "Network scans are a common first step in a network intrusion attempt. In order to gain information about a potential network intrusion, it is beneficial to analyze these network scans. Statistical methods such as wavelet scalogram analysis have been used along with visualization techniques in previous methods. However, applying these statistical methods causes a substantial amount of data loss. This paper presents a study of using associative memory learning techniques to directly compare network scans in order to create a classification which can be used by itself or in conjunction with existing visualization techniques to better characterize the sources of these scans. This produces an integrated system of visual and intelligent analysis which is applicable to real world data."
+    },
+    {
+        "title": "Using InetVis to Evaluate Snort and Bro Scan Detection on a Network Telescope",
+        "doi": "10.1007/978-3-540-78243-8_17",
+        "conference": "VizSec 2007",
+        "authors": "B. Irwin, J. -P. van Riel",
+        "year": "2007",
+        "abstract": "This paper presents an investigative analysis of network scans and scan detection algorithms. Visualisation is employed to review network telescope traffic and identify incidents of scan activity. Some of the identified phenomena appear to be novel forms of host discovery. Scan detection algorithms used by the Snort and Bro intrusion detection systems are critiqued by comparing the visualised scans with alert output. Where human assessment disagrees with the alert output, explanations are sought by analysing the detection algorithms. The Snort and Bro algorithms are based on counting unique connection attempts to destination addresses and ports. For Snort, notable false positive and false negative cases result due to a grossly oversimplified method of counting unique destination addresses and ports."
+    },
+    {
+        "title": "Understanding multistage attacks by attack-track based visualization of heterogeneous event streams",
+        "doi": "10.1145/1179576.1179578",
+        "conference": "VizSec 2006",
+        "authors": "S. Mathew, R. Giomundo, S. Upadhyaya, M. Sudit, A. Stotz",
+        "year": "2006",
+        "abstract": "In this paper, we present a method of handling the visualization of hetereogeneous event traffic that is generated by intrusion detection sensors, log files and other event sources on a computer network from the point of view of detecting multistage attack paths that are of importance. We perform aggregation and correlation of these events based on their semantic content to generate Attack Tracks that are displayed to the analyst in real-time. Our tool, called the Event Correlation for Cyber-Attack Recognition System (EC-CARS) enables the analyst to distinguish and separate an evolving multistage attack from the thousands of events generated on a network. We focus here on presenting the environment and framework for multistage attack detection using ECCARS along with screenshots that demonstrate its capabilities."
+    },
+    {
+        "title": "Visual toolkit for network security experiment specification and data analysis",
+        "doi": "10.1145/1179576.1179579",
+        "conference": "VizSec 2006",
+        "authors": "L. Li, P. Liu, G. Kesidis",
+        "year": "2006",
+        "abstract": "The increasing availability of network testbeds and the benefits of visualization-based security study call for the emergence of supporting tools for network security research. In this article we present ESVT, an integrated experiment specification and visualization toolkit that supports network experimenters to conduct interactive experiments on network testbeds such as DETER and Emulab. The ESVT package includes a topology builder including experiment specification, a TCL script generator, and various visualization tools. The unique feature of ESVT visualization is the combination of topology-based network animation for global awareness and detailed data analysis support through a complete set of data conversion, data selection, and graphical analytical tools."
+    },
+    {
+        "title": "Real-time collaborative network monitoring and control using 3D game engines for representation and interaction",
+        "doi": "10.1145/1179576.1179583",
+        "conference": "VizSec 2006",
+        "authors": "Warren Harrop, Grenville Armitage",
+        "year": "2006",
+        "abstract": "Identifying and reacting to malicious or anomalous IP traffic is a significant challenge for network operators. Automated real-time responses have been simplistic and require followup actions by technically specialised employees. We describe a system where off-the-shelf 3D game-engine technology enables collaborative network control through familiar \"interaction\" metaphors by translating network events into visually-orthogonal \"activities\". Anomalous behaviour is targeted by the managers-as-players using in-game techniques, such as \"shooting\" or \"healing\", resulting in defensive actions (such as updates to a firewall's access control list) being instantiated behind the scenes."
+    },
+    {
+        "title": "Visualization assisted detection of sybil attacks in wireless networks",
+        "doi": "10.1145/1179576.1179585",
+        "conference": "VizSec 2006",
+        "authors": "Weichao Wang, Aidong Lu",
+        "year": "2006",
+        "abstract": "In wireless networks,the authenticity and uniqueness of node identities are essential to the fundamental operations such as routing, resource allocation, and intrusion detection. In this paper, we investigate Sybil attack, an attack in which a malicious node illegitimately acquires multiple identities and performs as these nodes simultaneously. We propose an effective approach to monitoring and detecting such attacks by integrating network security and visualization methods. The security component explores the time-varying network topology and its statistical and geometry information to detect the existence of Sybil attacks. The visualization component incorporates the detection results and provides an effective mechanism to illustrate abnormal topology patterns and locate fake identities. These two components are integrated into a practical system that takes advantage of both interactive visualization and intelligent security methods. Experimental studies are conducted to investigate the impacts of the network parameters such as node connectivity on the detection capability of the proposed mechanism."
+    },
+    {
+        "title": "Visualization of Host Behavior for Network Security",
+        "doi": "10.1007/978-3-540-78243-8_13",
+        "conference": "VizSec 2007",
+        "authors": "F. Mansman, L. Meier, D. A. Keim",
+        "year": "2007",
+        "abstract": "Monitoring host behavior in a network is one of the most essential tasks in the fields of network monitoring and security since more and more malicious code in the wild internet constantly threatens the network infrastructure. In this paper, we present a visual analytics tool that visualizes network host behavior through positional changes in a two-dimensional space using a force-directed graph layout algorithm. The tool’s interaction capabilities allow for visual exploration of network traffic over time and are demonstrated using netflow data as well as IDS alerts. Automatic accentuation of hosts with highly variable traffic results in fast hypothesis generation and confirmation of suspicious host behavior. By triggering the behavior graph from the HNMap tool, we were able to monitor more abstract network entities."
+    },
+    {
+        "title": "An intelligent, interactive tool for exploration and visualization of time-oriented security data",
+        "doi": "10.1145/1179576.1179580",
+        "conference": "VizSec 2006",
+        "authors": "Asaf Shabtai, Denis Klimov, Yuval Shahar, Yuval Elovici",
+        "year": "2006",
+        "abstract": "The detection of known and unknown attacks usually requires the interpretation and presentation of very large amounts of time-oriented security data. Using regular means for displaying the data, such as text or tables, is often ineffective. Furthermore, displaying only raw data is not sufficient, because the security expert is still required to derive meaningful conclusions from large amounts of data. In addition, in many cases (e.g., for detecting a virus spreading in the network), an aggregated view of multiple network devices is more effective than a view of each individual device. In this paper we propose an intelligent interface used by a distributed architecture that was described in our previous work, specific to the tasks of knowledge-based interpretation, summarization, query, visualization and interactive exploration of large numbers of time-oriented data. In order to support the interpretation and computation process, we provide automated mechanisms that perform derivation of context-specific, interval-based abstract interpretations (also known as Temporal Abstractions) from raw time-stamped security data, by using a domain-specific knowledge-base (e.g., a period of 5 hours, during the night, of a high number of FTP connections within the context of No User Activity, which might indicate the existence of a Trojan in the computer). The proposed visualization tool includes several functionalities for querying, visualization and exploration of both raw and abstracted time-oriented security data regarding single and multiple network devices."
+    },
+    {
+        "title": "Visual Analysis of Network Flow Data with Timelines and Event Plots",
+        "doi": "10.1007/978-3-540-78243-8_6",
+        "conference": "VizSec 2007",
+        "authors": "D. Phan, J. Gerth, M. Lee, A. Paepcke, T. Winograd",
+        "year": "2007",
+        "abstract": "This paper describes Isis, a system that uses progressive multiples of timelines and event plots to support the iterative investigation of intrusions by experienced analysts using network flow data. The visual representations have been designed to make temporal relationships apparent, allow visual classification of events with dynamic brushing, and enable users to organize their visualizations to reveal traffic structure and patterns by reordering rows. Isis combines visual affordances with SQL to provide a flexible tool for investigation. We present an annotated case study using anonymized data of a real intrusion that demonstrates the features of Isis."
+    },
+    {
+        "title": "Visualizing DNS traffic",
+        "doi": "10.1145/1179576.1179582",
+        "conference": "VizSec 2006",
+        "authors": "Pin Ren, John Kristoff, Bruce Gooch",
+        "year": "2006",
+        "abstract": "This paper proposes a visualization approach to address Domain Name System (DNS) security challenges, such as distributed denial of service (DDoS) and cache poisoning attacks.We present Flying Term, a new perceptually motivated visual metaphor for visualizing the dynamic nature of DNS queries. The addition of visual metaphors such as Stacking Graphs, Two Tone Pseudo Color, and Chernoff Face Glyph within the same application framework provide enhanced monitoring capability and situational awareness for visualizing DNS queries. We demonstrate our visualization's capability to help administrators identify and understand DNS querying behavior due to anomalies such as misconfiguration and security events with DNS query data acquired from a diverse set of caching servers on the Internet."
+    },
+    {
+        "title": "Tool update: high alarm count issues in IDS rainstorm",
+        "doi": "10.1145/1179576.1179587",
+        "conference": "VizSec 2006",
+        "authors": "Kulsoom Abdullah, John A. Copeland",
+        "year": "2006",
+        "abstract": "We developed a tool to help network administrators deal with the large amount of alarms generated from network security appliances. It efficiently uses screen space representing a high number of IP addresses along with time sequence so that general alarm activity for a network can be visualized along with details, if desired. The tool was useful but encountered problems when there was a significant increase in the amount of alarms. The issues that resulted are addressed in this paper along with methods to ease them."
+    },
+    {
+        "title": "Ensuring the continuing success of vizsec",
+        "doi": "10.1145/1179576.1179591",
+        "conference": "VizSec 2006",
+        "authors": "Pin Ren",
+        "year": "2006",
+        "abstract": "In this position paper, I share my research findings in the security visualization research, and my thoughts on the problems and challenges we researchers face. I also outline what we need to do to ensure the continuing success of our community. It is my belief that the future of VizSec research depends on successful addressing the following tasks: 1. Generating effective and high-level visualization design guidelines and research methodologies. 2. Conducting studies to quantify effectiveness of security visualization techniques. 3. Contributing to the two parent communities, namely computer security and visualization, by integrating visualization components into existing security tools and feeding back successful visualization designs."
+    },
+    {
+        "title": "Tool update:  NVisionIP improvements (difference view, sparklines, and shapes) ",
+        "doi": "10.1145/1179576.1179589",
+        "conference": "VizSec 2006",
+        "authors": "William Yurcik",
+        "year": "2006",
+        "abstract": "This paper highlights major enhancements made to the security visualization tool -- NVisionIP -- since it was first presented at the VizSEC/DMSEC 2004 Workshop."
+    },
+    {
+        "title": "VAST: visualizing autonomous system topology",
+        "doi": "10.1145/1179576.1179592",
+        "conference": "VizSec 2006",
+        "authors": "Jon Oberheide, Manish Karir, Dionysus Blazakis",
+        "year": "2006",
+        "abstract": "Extracting specific and relevant information regarding the Internet's BGP routing topology is a challenging task. In this paper we present a set of techniques that can be used to visualize various aspects of the Internet topology. We have implemented our visualization techniques in a unique tool called VAST (Visualizing Autonomous System Topology). With the help of simple illustrative examples we describe how our visualizations allow security researchers to extract relevant information quickly from raw BGP routing datasets. VAST provides visualizations that represent information about both the overall topological properties of the Internet as well as individual Autonomous System (AS) behavior."
+    },
+    {
+        "title": "Tool update:  visflowconnect-IP with advanced filtering from usability testing ",
+        "doi": "10.1145/1179576.1179588",
+        "conference": "VizSec 2006",
+        "authors": "William Yurcik",
+        "year": "2006",
+        "abstract": "This paper highlights major enhancements made to the security visualization tool -- VisFlowConnect-IP -- since it was first presented at the VizSEC/DMSEC 2004 Workshop."
+    },
+    {
+        "title": "Discovering an RC4 anomaly through visualization",
+        "doi": "10.1145/1179576.1179595",
+        "conference": "VizSec 2006",
+        "authors": "Dino Schweitzer, Leemon Baird",
+        "year": "2006",
+        "abstract": "Visualization can be an effective means for analyzing security data and teaching students different concepts about various security algorithms. At the Air Force Academy, interactive visualizations are used to teach ciphers to students in a cryptography course. In the course of preparing student visualizations about the RC4 cipher characteristics, an anomaly was discovered in the basic encryption algorithm. This paper describes the anomaly and the process of how it was discovered through visualization."
+    },
+    {
+        "title": "BGP eye: a new visualization tool for real-time detection and analysis of BGP anomalies",
+        "doi": "10.1145/1179576.1179593",
+        "conference": "VizSec 2006",
+        "authors": "Soon Tee Teoh, Supranamaya Ranjan, Antonio Nucci, Chen-Nee Chuah",
+        "year": "2006",
+        "abstract": "Owing to the inter-domain aspects of BGP routing, it is difficult to correlate information across multiple domains in order to analyze the root cause of the routing outages. We present BGP Eye, a tool for visualization-aided root-cause analysis of BGP anomalies. In contrast to previous approaches, BGP Eye performs real-time analysis of BGP anomalies through hierarchical analysis. First, BGP updates are clustered to obtain BGP events that are more representative of an anomaly. These events are then correlated across all border routers to ascertain the extent of the anomaly. Furthermore, BGP Eye provides both the capability to analyze BGP anomalies from an Internet-Centric View through multiple vantage points as well as from a Home-Centric View of a particular Autonomous System. We present the capability for scalable and real-time root-cause analysis provided by BGP Eye through the analysis of two very different anomalies. First, we provide an Internet-Centric view from AS568 of the routing outages during the spread of the Slammer Worm on January 25th, 2003. Second, we provide a Home-Centric view from AS6458 of the routing outages caused by the inadvertent prefix hijacking by AS9121 on December 24th, 2004."
+    },
+    {
+        "title": "Visualizations to improve reactivity towards security incidents inside corporate networks",
+        "doi": "10.1145/1179576.1179596",
+        "conference": "VizSec 2006",
+        "authors": "Patrick Hertzog",
+        "year": "2006",
+        "abstract": "Corporations are usually not able to react quickly enough toward security incidents because their security staffs are flooded by information difficult to interpret. To help them in their task, we propose a new approach to build efficient visualizations based on more pertinent information. Fewer but higher-level parameters are collected on the endpoints and then centralized on the network. We also present an interactive grouping method to overcome the problem of the amount of data to display. Finally, two complementary visualizations based on that approach are described along with usage scenarios that illustrate their usefulness."
+    },
+    {
+        "title": "USEable security: interface design strategies for improving security",
+        "doi": "10.1145/1179576.1179598",
+        "conference": "VizSec 2006",
+        "authors": "Amanda L. Stephano, Dennis P. Groth",
+        "year": "2006",
+        "abstract": "As people start depending more on technology and the internet they are opening themselves up to new risks. In this project, we specifically investigated wireless router interfaces to understand the needs of users when they configure security. Two studies were conducted: a baseline study comparing the interfaces of two routers on the market and a study comparing a prototype and the Linksys interface. The baseline study showed that there was no difference between the current interfaces. We then conducted a controlled experiment with a prototype that gave visual feedback. The prototype showed significant improvement in level of security achieved."
+    },
+    {
+        "title": "Visualization for privacy compliance",
+        "doi": "10.1145/1179576.1179599",
+        "conference": "VizSec 2006",
+        "authors": "George Yee",
+        "year": "2006",
+        "abstract": "The growth of the Internet has been accompanied by the growth of e-services (e.g. e-commerce, e-health). This proliferation of e-services has put large quantities of consumer private information in the hands of the service providers, who in many cases have mishandled the information, either intentionally or unintentionally, to the detriment of consumer privacy. As a result, government bodies have put in place privacy legislation that spells out a consumer's privacy rights and how consumer private information is to be handled. Providers are required to comply with such privacy legislation. This paper proposes visualization as a tool that can be used by security or privacy analysts to understand how private information flows within and between provider organizations, as a way of identifying vulnerabilities that can lead to non-compliance. A model of private information flow and a graphical notation for visualizing this flow are proposed. An application example of using the notation to identify privacy vulnerabilities is given."
+    },
+    {
+        "title": "A user-centered look at glyph-based security visualization",
+        "doi": "10.1109/vizsec.2005.1532062",
+        "conference": "VizSec 2005",
+        "authors": "A. Komlodi, P. Rheingans, U. Ayachit, J.R. Goodall, A. Joshi",
+        "year": "2005",
+        "abstract": "This paper presents the intrusion detection toolkit (IDtk), an information visualization tool for intrusion detection (ID). IDtk was developed through a user-centered design process, in which we identified design guidelines to support ID users. ID analysts protect their networks by searching for evidence of attacks in ID system output, firewall and system logs, and other complex, textual data sources. Monitoring and analyzing these sources incurs a heavy cognitive load for analysts. The use of information visualization techniques offers a valuable addition to the toolkit of the ID analyst. Several visualization techniques for ID have been developed, but few usability or field studies have been completed to assess the needs of ID analysts and the usability and usefulness of these tools. We intended to fill this gap by applying a user-centered design process in the development and evaluation of IDtk, a 3D, glyph-based visualization tool that gives the user maximum flexibility in setting up how the visualization display represents ID data. The user can also customize whether the display is a simple, high-level overview to support monitoring, or a more complex 3D view allowing for viewing the data from multiple angles and thus supporting analysis and diagnosis. This flexibility was found crucial in our usability evaluation. In addition to describing the tool, we report the findings of our user evaluation and propose new guidelines for the design of information visualization tools for ID."
+    },
+    {
+        "title": "IDS rainStorm: visualizing IDS alarms",
+        "doi": "10.1109/vizsec.2005.1532060",
+        "conference": "VizSec 2005",
+        "authors": "K. Abdullah, C.P. Lee, G. Conti, J.A. Copeland, J. Stasko",
+        "year": "2005",
+        "abstract": "The massive amount of alarm data generated from intrusion detection systems is cumbersome for network system administrators to analyze. Often, important details are overlooked and it is difficult to get an overall picture of what is occurring in the network by manually traversing textual alarm logs. We have designed a novel visualization to address this problem by showing alarm activity within a network. Alarm data is presented in an overview where system administrators can get a general sense of network activity and easily detect anomalies. They then have the option of zooming and drilling down for details. The information is presented with local network IP (Internet Protocol) addresses plotted over multiple y-axes to represent the location of alarms. Time on the x-axis is used to show the pattern of the alarms and variations in color encode the severity and amount of alarms. Based on our system administrator requirements study, this graphical layout addresses what system administrators need to see, is faster and easier than analyzing text logs, and uses visualization techniques to effectively scale and display the data. With this design, we have built a tool that effectively uses operational alarm log data generated on the Georgia Tech campus network. The motivation and background of our design is presented along with examples that illustrate its usefulness."
+    },
+    {
+        "title": "Flowtag: a collaborative attack-analysis, reporting, and sharing tool for security researchers",
+        "doi": "10.1145/1179576.1179597",
+        "conference": "VizSec 2006",
+        "authors": "Christopher P. Lee, John A. Copeland",
+        "year": "2006",
+        "abstract": "Current tools for forensic analysis require many hours to understand novel attacks, causing reports to be terse and untimely. We apply visual filtering and tagging of flows in a novel way to address the current limitations of post-attack analysis, reporting, and sharing. We discuss the benefits of visual filtering and tagging of network flows and introduce FlowTag as our prototype tool for Honeynet researchers. We argue that online collaborative analysis benefits security researchers by organizing attacks, collaborating on analysis, forming attack databases for trend analysis, and in promoting new security research areas. Lastly, we show three attacks on the Georgia Tech Honeynet and describe the analysis process using FlowTag."
+    },
+    {
+        "title": "A visualization methodology for characterization of network scans",
+        "doi": "10.1109/vizsec.2005.1532063",
+        "conference": "VizSec 2005",
+        "authors": "C. Muelder, Kwan-Liu Ma, T. Bartoletti",
+        "year": "2005",
+        "abstract": "Many methods have been developed for monitoring network traffic, both using visualization and statistics. Most of these methods focus on the detection of suspicious or malicious activities. But what they often fail to do refine and exercise measures that contribute to the characterization of such activities and their sources, once they are detected. In particular, many tools exist that detect network scans or visualize them at a high level, but not very many tools exist that are capable of categorizing and analyzing network scans. This paper presents a means of facilitating the process of characterization by using visualization and statistics techniques to analyze the patterns found in the timing of network scans through a method of continuous improvement in measures that serve to separate the components of interest in the characterization so the user can control separately for the effects of attack tool employed, performance characteristics of the attack platform, and the effects of network routing in the arrival patterns of hostile probes. The end result is a system that allows large numbers of network scans to be rapidly compared and subsequently identified."
+    },
+    {
+        "title": "Visual correlation of host processes and network traffic",
+        "doi": "10.1109/vizsec.2005.1532061",
+        "conference": "VizSec 2005",
+        "authors": "G.A. Fink, P. Muessig, C. North",
+        "year": "2005",
+        "abstract": "Anomalous communication patterns are one of the leading indicators of computer system intrusions according to the system administrators we have interviewed. But a major problem is being able to correlate across the host/network boundary to see how network connections are related to running processes on a host. This paper introduces Portall, a visualization tool that gives system administrators a view of the communicating processes on the monitored machine correlated with the network activity in which the processes participate. Portall is a prototype of part of the Network Eye framework we have introduced in an earlier paper (Ball, et al., 2004). We discuss the Portall visualization, the supporting infrastructure it requires, and a formative usability study we conducted to obtain administrators' reactions to the tool."
+    },
+    {
+        "title": "Root polar layout of internet address data for security administration",
+        "doi": "10.1109/vizsec.2005.1532066",
+        "conference": "VizSec 2005",
+        "authors": "G.A. Fink, C. North",
+        "year": "2005",
+        "abstract": "This paper introduces an adaptation of polar coordinates called root polar plotting that we have developed for our network pixel map, a computer security visualization capable of representing tens of thousands of hosts at a time. Root polar coordinates overcome two important problems of normal polar coordinates: plot density distortion and severe occlusion near the origin. We discuss several approaches we took while investigating this problem and provide empirical data from experiments we conducted comparing root polar coordinates against both normal polar and Cartesian coordinates. In any application where a polar plot would be useful but distortion of the data must be avoided, or where it is important to avoid some markers from being occluded by others, root polar coordinates may be useful. Our approach provides: (1) a novel adaptation of polar coordinates that overcomes plotting distortion; (2) a means of plotting network data in near real-time without complex layout optimization; (3) an algorithm that reduces occlusion of plotted points while maintaining consistent placement; and (4) an empirical comparison of Cartesian vs. polar plots."
+    },
+    {
+        "title": "IDGraphs: intrusion detection and analysis using histographs",
+        "doi": "10.1109/vizsec.2005.1532064",
+        "conference": "VizSec 2005",
+        "authors": "Pin Ren, Yan Gao, Zhichun Li, Yan Chen, B. Watson",
+        "year": "2005",
+        "abstract": "Traffic anomalies and attacks are commonplace in today's networks and identifying them rapidly and accurately is critical for large network operators. For a statistical intrusion detection system (IDS), it is crucial to detect at the flow-level for accurate detection and mitigation. However, existing IDS systems offer only limited support for: 1) interactively examining detected intrusions and anomalies; 2) analyzing worm propagation patterns; 3) and discovering correlated attacks. These problems are becoming even more acute as the traffic on today's high-speed routers continues to grow. IDGraphs is an interactive visualization system for intrusion detection that addresses these challenges. The central visualization in the system is a flow-level trace plotted with time on the horizontal axis and aggregated number of unsuccessful connections on the vertical axis. We then summarize a stack of tens or hundreds of thousands of these traces using the histographs (Pin Ren and Watson, 2005) technique, which maps data frequency at each pixel to brightness. Users may then interactively query the summary view, performing analysis by highlighting subsets of the traces. For example, brushing a linked correlation matrix view highlights traces with similar patterns, revealing distributed attacks that are difficult to detect using standard statistical analysis. We apply IDGraphs system to a real network router data-set with 179M flow-level records representing a total traffic of 1.16TB. The system successfully detects and analyzes a variety of attacks and anomalies, including port scanning, worm outbreaks, stealthy TCP SYN floodings, and some distributed attacks."
+    },
+    {
+        "title": "Preserving the big picture: visual network traffic analysis with TNV",
+        "doi": "10.1109/vizsec.2005.1532065",
+        "conference": "VizSec 2005",
+        "authors": "J.R. Goodall, W.G. Lutters, P. Rheingans, A. Komlodi",
+        "year": "2005",
+        "abstract": "When performing packet-level analysis in intrusion detection, analysts often lose sight of the big picture while examining these low-level details. In order to prevent this loss of context and augment the available tools for intrusion detection analysis tasks, we developed an information visualization tool, the time-based network traffic visualizer (TNV). TNV is grounded in an understanding of the work practices of intrusion detection analysts, particularly foregrounding the overarching importance of context and time in the process of intrusion detection analysis. The main visual component of TNV is a matrix showing network activity of hosts over time, with connections between hosts superimposed on the matrix, complemented by multiple, linked views showing port activity and the details of the raw packets. Providing low-level textual data in the context of a high-level, aggregated graphical display enables analysts to examine packet-level details within the larger context of activity. This combination has the potential to facilitate the intrusion detection analysis tasks and help novice analysts learn what constitutes normal on a particular network."
+    },
+    {
+        "title": "Interactively combining 2D and 3D visualization for network traffic monitoring",
+        "doi": "10.1145/1179576.1179600",
+        "conference": "VizSec 2006",
+        "authors": "Erwan Le Malécot, Masayoshi Kohara, Yoshiaki Hori, Kouichi Sakurai",
+        "year": "2006",
+        "abstract": "With the multiplication of attacks against computer networks, system administrators need to monitor carefully the networks they manage. However, that monitoring task is made harder because of the increasing amount of data to process. Conventional automated tools provide limited support and most of the time require high skilled operators. Recently, tools using visualization techniques started to be proposed to resolve those issues. In this paper we introduce an original visualization design which combine 3D and 2D representations of the network traffic and activity. Both representations are based on the same interactive grid representation of the network space and are linked together as they provide complementary functionalities.The 3D representation provides an overview of the communications between several network zones and the 2D representation provides a detailed view of selected parts of the 3D one. A prototype was built according to the proposed visualization design."
+    },
+    {
+        "title": "Visualizing cyber attacks using IP matrix",
+        "doi": "10.1109/vizsec.2005.1532070",
+        "conference": "VizSec 2005",
+        "authors": "H. Koike, K. Ohno, K. Koizumi",
+        "year": "2005",
+        "abstract": "An Internet cyber threat monitoring system detects cyber threats using network sensors deployed at particular points on the Internet, statistically analyzes the time of attack, source of attack, and type of attack, and then visualizes the result of this analysis. Existing systems, however, simply visualize country-by-country statistics of attacks or hourly changes of attacks. Using these systems, it is difficult to understand the source of attack, the diffusion of the attack, or the relation between the target and the source of the attack. This paper described a method for visualizing cyber threats by using 2-dimensional matrix representation of IP addresses. The advantages of this method are that: (1) the logical distance of IP addresses is represented intuitively; (2) Internet address space is visualized economically; (3) macroscopic information (Internet level) and microscopic information (local level) are visualized simultaneously. By using this visualization framework, propagation of the Welchia worm and the Sasser.D worm are visualized."
+    },
+    {
+        "title": "Closing-the-loop in NVisionIP: integrating discovery and search in security visualizations",
+        "doi": "10.1109/vizsec.2005.1532068",
+        "conference": "VizSec 2005",
+        "authors": "K. Lakkaraju, R. Bearavolu, A. Slagell, W. Yurcik, S. North",
+        "year": "2005",
+        "abstract": "The field of security visualization is in need of a paradigm shift in order to allow visualization tools to be practically used by security engineers. Security engineers must complete two different tasks, that of discovery of a pattern, and that of searching for a pattern in a data set. Current security visualizations do not aid the user in creating symbolic rules that represent visual patterns. Transforming visual patterns to symbolic rules requires effort by the security engineer and detracts from their main task of discovering interesting patterns. In this paper we describe the idea of closing-the-loop, a system where symbolic rules are created from visual patterns."
+    },
+    {
+        "title": "Information assurance visualizations for specific stages of situational awareness and intended uses: lessons learned",
+        "doi": "10.1109/vizsec.2005.1532072",
+        "conference": "VizSec 2005",
+        "authors": "A. D'Amico, M. Kocka",
+        "year": "2005",
+        "abstract": "Information visualization has proven to be a valuable tool for working more effectively with complex data and maintaining situational awareness in demanding operational domains. Unfortunately, many applications of visualization technology fall short of expectations because the technology is used inappropriately - the wrong tool applied in the wrong way. A study of visualization techniques as applied to one particularly demanding area, information assurance, leads to the conclusion that there is a proper and formal way to approach designing visualization techniques for maintaining situational awareness in complex domains. Visualization techniques should be specifically designed or selected to align with one of the three identified stages of situational awareness - perception, comprehension, or projection -and with one of five standard uses of visualization - monitoring, inspecting, exploring, forecasting, or communicating. Greater value can be realized by selecting the right visualization technique to focus on each operational task, rather than searching for a single all-encompassing solution to fit every need. Examples of how visualizations can be used to support specific tasks of IA analysis are presented, with examples based on a review of available literature, a formal cognitive task analysis performed by the authors, and lessons learned from direct experience with developing IA visualizations and training analysts in their use."
+    },
+    {
+        "title": "Multiple coordinated views for network attack graphs",
+        "doi": "10.1109/vizsec.2005.1532071",
+        "conference": "VizSec 2005",
+        "authors": "S. Noel, M. Jacobs, P. Kalapa, S. Jajodia",
+        "year": "2005",
+        "abstract": "While efficient graph-based representations have been developed for modeling combinations of low-level network attacks, relatively little attention has been paid to effective techniques for visualizing such attack graphs. This paper describes a number of new attack graph visualization techniques, each having certain desirable properties and offering different perspectives for solving different kinds of problems. Moreover, the techniques we describe can be applied not only separately, but can also be combined into coordinated attack graph views. We apply improved visual clustering to previously described network protection domains (attack graph cliques), which reduces graph complexity and makes the overall attack flow easier to understand. We also visualize the attack graph adjacency matrix, which shows patterns of network attack while avoiding the clutter usually associated with drawing large graphs. We show how the attack graph adjacency matrix concisely conveys the impact of network configuration changes on attack graphs. We also describe a novel attack graph filtering technique based on the interactive navigation of a hierarchy of attack graph constraints. Overall, our techniques scale quadratically with the number of machines in the attack graph."
+    },
+    {
+        "title": "Designing visualization capabilities for IDS challenges",
+        "doi": "10.1109/vizsec.2005.1532074",
+        "conference": "VizSec 2005",
+        "authors": "R.F. Erbacher, K. Christensen, A. Sundberg",
+        "year": "2005",
+        "abstract": "This paper describes our work to develop an environment and novel visualization techniques for the visual representation, exploration, and analysis of network traffic data to ease the identification and analysis of sophisticated attacks above and beyond the ability for traditional network firewalls to detect and block. The visualization techniques are geared towards aiding analysts in filtering unwanted or unneeded data in favor of data deemed more critical and more representative of the sophisticated attacks the analysts must focus their attention on. The environment provides the needed capabilities for analyzing traditional network traffic data without additional filtering, i.e., the environment itself provides the needed capabilities."
+    },
+    {
+        "title": "Visualization of automated trust negotiation",
+        "doi": "10.1109/vizsec.2005.1532067",
+        "conference": "VizSec 2005",
+        "authors": "Danfeng Yao, M. Shin, R. Tamassia, W.H. Winsborough",
+        "year": "2005",
+        "abstract": "We have designed an interactive visualization framework for the automated trust negotiation (ATN) protocol and we have implemented a prototype of the visualizer in Java. This framework provides capabilities to perform the interactive visualization of an ATN session, display credentials and policies, analyze the relations of negotiated components, and refine access control policies and negotiation strategies. We give examples of the visualization of ATN sessions and demonstrate the interactive features of the visualizer for the incremental construction of a trust target graph (TTG). Our prototype, which implements most components of the visualization framework, has played a key role in a research project that has developed working trust negotiation systems in an industrial environment."
+    },
+    {
+        "title": "Visual firewall: real-time network security monitor",
+        "doi": "10.1109/vizsec.2005.1532075",
+        "conference": "VizSec 2005",
+        "authors": "C.P. Lee, J. Trost, N. Gibbs, R. Beyah, J.A. Copeland",
+        "year": "2005",
+        "abstract": "Networked systems still suffer from poor firewall configuration and monitoring. VisualFirewall seeks to aid in the configuration of firewalls and monitoring of networks by providing four simultaneous views that display varying levels of detail and time-scales as well as correctly visualizing firewall reactions to individual packets. The four implemented views, real-time traffic, visual signature, statistics, and IDS alarm, provide the levels of detail and temporality that system administrators need to properly monitor their systems in a passive or an active manner. We have visualized several attacks, and we feel that even individuals unfamiliar with networking concepts can quickly distinguish between benign and malignant traffic patterns with a minimal amount of introduction."
+    },
+    {
+        "title": "Exploring three-dimensional visualization for intrusion detection",
+        "doi": "10.1109/vizsec.2005.1532073",
+        "conference": "VizSec 2005",
+        "authors": "A. Oline, D. Reiners",
+        "year": "2005",
+        "abstract": "Intrusion detection systems have been popular tools in the battle against adversaries who, for whatever reason, desire to break into networks, compromise hosts, and steal valuable information. One problem with current implementations, however, is the sheer number of alerts they can generate, many of which tend to be false alarms. This drawback makes effective use of such systems a challenging task. In this paper we explore three-dimensional approaches to visualizing network intrusion detection system alerts and aggregated network statistics in order to provide the system administrator with a better picture of the events occurring on his or her network. While some research has been done using two-dimensional concepts, 3D approaches have not received much attention with regard to detecting network intrusions. Evaluation of our visualizations using the 1999 DARPA intrusion detection evaluation data set demonstrates the potential benefit of utilizing the third dimension. We show how a number of attack types in the data set generate visual evidence of abnormal activity that a security administrator might use as motivation for further investigation."
+    },
+    {
+        "title": "Using visual motifs to classify encrypted traffic",
+        "doi": "10.1145/1179576.1179584",
+        "conference": "VizSec 2006",
+        "authors": "Charles V. Wright, Fabian Monrose, Gerald M. Masson",
+        "year": "2006",
+        "abstract": "In an effort to make robust traffic classification more accessible to human operators, we present visualization techniques for network traffic. Our techniques are based solely on network information that remains intact after application-layer encryption, and so offer a way to visualize traffic \"in the dark\". Our visualizations clearly illustrate the differences between common application protocols, both in their transient (i.e., time-dependent)and steady-state behavior. We show how these visualizations can be used to assist a human operator to recognize application protocols in unidentified traffic and to verify the results of an automated classifier via visual inspection. In particular, our preliminary results show that we can visually scan almost 45,000 connections in less than one hour and correctly identify known application behaviors. Moreover, using visualizations together with an automated comparison technique based on Dynamic Time Warping of the motifs, we can rapidly develop accurate recognizers for new or previously unknown applications."
+    },
+    {
+        "title": "User re-authentication via mouse movements",
+        "doi": "10.1145/1029208.1029210",
+        "conference": "VizSec 2004",
+        "authors": "Maja Pusara, Carla E. Brodley",
+        "year": "2004",
+        "abstract": "We present an approach to user re-authentication based on the data collected from the computer's mouse device. Our underlying hypothesis is that one can successfully model user behavior on the basis of user-invoked mouse movements. Our implemented system raises an alarm when the current behavior of user X, deviates sufficiently from learned \"normal\" behavior of user X. We apply a supervised learning method to discriminate among k users. Our empirical results for eleven users show that we can differentiate these individuals based on their mouse movement behavior with a false positive rate of 0.43% and a false negative rate of 1.75%. Nevertheless, we point out that analyzing mouse movements alone is not sufficient for a stand-alone user re-authentication system."
+    },
+    {
+        "title": "HMM profiles for network traffic classification",
+        "doi": "10.1145/1029208.1029211",
+        "conference": "VizSec 2004",
+        "authors": "Charles Wright, Fabian Monrose, Gerald M. Masson",
+        "year": "2004",
+        "abstract": "We present techniques for building HMM profiles for network applications using only the packet-level information that remains intact and observable after encryption, namely, packet size and arrival time. Using less information than previously thought possible, we demonstrate classification accuracy close to that of other recent techniques, and show success in classifying a variety of common network applications as observed from real Internet traffic traces."
+    },
+    {
+        "title": "VisFlowConnect: netflow visualizations of link relationships for security situational awareness",
+        "doi": "10.1145/1029208.1029214",
+        "conference": "VizSec 2004",
+        "authors": "Xiaoxin Yin, William Yurcik, Michael Treaster, Yifan Li, Kiran Lakkaraju",
+        "year": "2004",
+        "abstract": "We present a visualization design to enhance the ability of an administrator to detect and investigate anomalous traffic between a local network and external domains. Central to the design is a parallel axes view which displays NetFlow records as links between two machines or domains while employing a variety of visual cues to assist the user. We describe several filtering options that can be employed to hide uninteresting or innocuous traffic such that the user can focus his or her attention on the more unusual network flows. This design is implemented in the form of VisFlowConnect, a prototype application which we used to study the effectiveness of our visualization approach. Using VisFlowConnect, we were able to discover a variety of interesting network traffic patterns. Some of these were harmless, normal behavior, but some were malicious attacks against machines on the network."
+    },
+    {
+        "title": "Passive visual fingerprinting of network attack tools",
+        "doi": "10.1145/1029208.1029216",
+        "conference": "VizSec 2004",
+        "authors": "Gregory Conti, Kulsoom Abdullah",
+        "year": "2004",
+        "abstract": "This paper examines the dramatic visual fingerprints left by a wide variety of popular network attack tools in order to better understand the specific methodologies used by attackers as well as the identifiable characteristics of the tools themselves. The techniques used are entirely passive in nature and virtually undetectable by the attackers. While much work has been done on active and passive operating systems detection, little has been done on fingerprinting the specific tools used by attackers. This research explores the application of several visualization techniques and their usefulness toward identification of attack tools, without the typical automated intrusion detection system's signatures and statistical anomalies. These visualizations were tested using a wide range of popular network security tools and the results show that in many cases, the specific tool can be identified and provides intuition that many classes of zero-day attacks can be rapidly detected and analyzed using similar techniques."
+    },
+    {
+        "title": "Visual exploration of malicious network objects using semantic zoom, Interactive encoding and dynamic queries",
+        "doi": "10.1109/vizsec.2005.1532069",
+        "conference": "VizSec 2005",
+        "authors": "G. Conti, J. Grizzard, M. Ahamad, H. Owen",
+        "year": "2005",
+        "abstract": "This paper explores the application of visualization techniques to aid in the analysis of malicious and non-malicious binary objects. These objects may include any logically distinct chunks of binary data such as image files, word processing documents and network packets. To facilitate this analysis, we present a novel visualization technique for comparing and navigating among 600-1000+ such objects at one time. While the visualization technique alone has powerful application for both directed and undirected exploration of many classes of binary objects, we chose to study network packets. To increase effectiveness, we strengthened the visualization technique with novel, domain-specific semantic zooming, interactive encoding and dynamic querying capabilities. We present results and lessons learned from implementing these techniques and from studying both malicious and non-malicious network packets. Our results indicate that the information visualization system we present is an efficient and effective way to compare large numbers of network packets, visually examine their payloads and navigate to areas of interest within large network datasets."
+    },
+    {
+        "title": "Visualizing windows executable viruses using self-organizing maps",
+        "doi": "10.1145/1029208.1029222",
+        "conference": "VizSec 2004",
+        "authors": "InSeon Yoo",
+        "year": "2004",
+        "abstract": "This paper concentrates on visualizing computer viruses without using virus specific signature information as a prior stage of the very important problem of detecting computer viruses. In this paper, we address the fact that each viruses have its own character to be distinguished although it is inserted in the executable file. They cannot hide their own feature through the SOM visualization; this feature is like a DNA to determine an individual's unique genetic code. We present how virus codes affect the whole program projection. Without each virus signature, we present how the virus pattern in Windows executable files tells us their family. We show that the variant of each virus also can be covered with each virus mask, which is produced by SOM. We also present the file structure based SOMs of Windows executable files."
+    },
+    {
+        "title": "Combining visual and automated data mining for near-real-time anomaly detection and analysis in BGP",
+        "doi": "10.1145/1029208.1029215",
+        "conference": "VizSec 2004",
+        "authors": "Soon Tee Teoh, Ke Zhang, Shih-Ming Tseng, Kwan-Liu Ma, S. Felix Wu",
+        "year": "2004",
+        "abstract": "The security of Internet routing is a major concern because attacks and errors can result in data packets not reaching their intended destination and/or falling into the wrong hands. A key step in improving routing security is to analyze and understand it. In the past, we and other researchers have presented various visual-based, statistical-based, and signature-based methods of analyzing Internet routing data. In this paper, we describe an integration of visual and automated data mining methods for discovering and investigating anomalies in Internet routing. We show how these different components are combined in such a way as to complement each other, creating a very effective and useful analysis tool. In addition to performing analysis on archived data, our system is able to collect, process and visualize data in near-real-time."
+    },
+    {
+        "title": "Home-centric visualization of network traffic for security administration",
+        "doi": "10.1145/1029208.1029217",
+        "conference": "VizSec 2004",
+        "authors": "Robert Ball, Glenn A. Fink, Chris North",
+        "year": "2004",
+        "abstract": "Today's system administrators, burdened by rapidly increasing network activity, must quickly perceive the security state of their networks, but they often have only text-based tools to work with. These tools often provide no overview to help users grasp the big-picture. Our interviews with administrators have revealed that they need visualization tools; thus, we present VISUAL (Visual Information Security Utility for Administration Live), a network security visualization tool that allows users to see communication patterns between their home (or internal) networks and external hosts. VISUAL is part of our Network Eye security visualization architecture, also described in this paper. We have designed and tested a new computer security visualization that gives a quick overview of current and recent communication patterns in the monitored network to the users. Many tools can detect and show fan-out and fan-in, but VISUAL shows network events graphically, in context. Visualization helps users comprehend the intensity of network events more intuitively than text-based tools can. VISUAL provides insight for networks with up to 2,500 home hosts and 10,000 external hosts, shows the relative activity of hosts, displays them in a constant relative position, and reveals the ports and protocols used."
+    },
+    {
+        "title": "MORPHEUS: motif oriented representations to purge hostile events from unlabeled sequences",
+        "doi": "10.1145/1029208.1029212",
+        "conference": "VizSec 2004",
+        "authors": "Gaurav Tandon, Philip Chan, Debasis Mitra",
+        "year": "2004",
+        "abstract": "Most of the prevalent anomaly detection systems use some training data to build models. These models are then utilized to capture any deviations resulting from possible intrusions. The efficacy of such systems is highly dependent upon a training data set free of attacks. \"Clean\" or labeled training data is hard to obtain. This paper addresses the very practical issue of refinement of unlabeled data to obtain a clean data set which can then train an online anomaly detection system. Our system, called MORPHEUS, represents a system call sequence using the spatial positions of motifs (subsequences) within the sequence. We also introduce a novel representation called sequence space to denote all sequences with respect to a reference sequence. Experiments on well known data sets indicate that our sequence space can be effectively used to purge anomalies from unlabeled sequences. Although an unsupervised anomaly detection system in itself, our technique is used for data purification. A \"clean\" training set thus obtained improves the performance of existing online host-based anomaly detection systems by increasing the number of attack detections."
+    },
+    {
+        "title": "NVisionIP: netflow visualizations of system state for security situational awareness",
+        "doi": "10.1145/1029208.1029219",
+        "conference": "VizSec 2004",
+        "authors": "Kiran Lakkaraju, William Yurcik, Adam J. Lee",
+        "year": "2004",
+        "abstract": "The number of attacks against large computer systems is currently growing at a rapid pace. Despite the best efforts of security analysts, large organizations are having trouble keeping on top of the current state of their networks. In this paper, we describe a tool called NVisionIP that is designed to increase the security analyst's situational awareness. As humans are inherently visual beings, NVisionIP uses a graphical representation of a class-B network to allow analysts to quickly visualize the current state of their network. We present an overview of NVisionIP along with a discussion of various types of security-related scenarios that it can be used to detect."
+    },
+    {
+        "title": "Managing attack graph complexity through visual hierarchical aggregation",
+        "doi": "10.1145/1029208.1029225",
+        "conference": "VizSec 2004",
+        "authors": "Steven Noel, Sushil Jajodia",
+        "year": "2004",
+        "abstract": "We describe a framework for managing network attack graph complexity through interactive visualization, which includes hierarchical aggregation of graph elements. Aggregation collapses non-overlapping subgraphs of the attack graph to single graph vertices, providing compression of attack graph complexity. Our aggregation is recursive (nested), according to a predefined aggregation hierarchy. This hierarchy establishes rules at each level of aggregation, with the rules being based on either common attribute values of attack graph elements or attack graph connectedness. The higher levels of the aggregation hierarchy correspond to higher levels of abstraction, providing progressively summarized visual overviews of the attack graph. We describe rich visual representations that capture relationships among our semantically-relevant attack graph abstractions, and our views support mixtures of elements at all levels of the aggregation hierarchy. While it would be possible to allow arbitrary nested aggregation of graph elements, it is better to constrain aggregation according to the semantics of the network attack problem, i.e., according to our aggregation hierarchy. The aggregation hierarchy also makes efficient automatic aggregation possible. We introduce the novel abstraction of protection domain as a level of the aggregation hierarchy, which corresponds to a fully-connected subgraph (clique) of the attack graph. We avoid expensive detection of attack graph cliques through knowledge of the network configuration, i.e. protection domains are predefined. While significant work has been done in automatically generating attack graphs, this is the first treatment of the management of attack graph complexity for interactive visualization. Overall, computation in our framework has worst-case quadratic complexity, but in practice complexity is greatly reduced because users generally interact with (often negligible) subsets of the attack graph. We apply our framework to a real network, using a software system we have developed for generating and visualizing network attack graphs."
+    },
+    {
+        "title": "Scalable visualization of propagating internet phenomena",
+        "doi": "10.1145/1029208.1029228",
+        "conference": "VizSec 2004",
+        "authors": "Alfonso Valdes, Martin Fong",
+        "year": "2004",
+        "abstract": "The Internet has recently been impacted by a number of large distributed attacks that achieve exponential growth through self-propagation. Some of these attacks have exploited vulnerabilities for which advisories had been issued and for which patches and detection signatures were available. It is increasingly apparent, however, that such prevention and detection mechanisms are inadequate, and that the attacker's time to exploit is shrinking relative to the defender's ability to learn of a new attack and patch systems or update intrusion detection signatures. We introduce visual, scalable techniques to detect phenomena such as distributed denial-of-service attacks and worms. It is hoped that these new approaches will enable detection of such events at an early stage and enable local response actions even before the publication of advisories about a new vulnerability and the availability of patches."
+    },
+    {
+        "title": "CyberSeer: 3D audio-visual immersion for network security and management",
+        "doi": "10.1145/1029208.1029223",
+        "conference": "VizSec 2004",
+        "authors": "Christos Papadopoulos, Chris Kyriakakis, Alexander Sawchuk, Xinming He",
+        "year": "2004",
+        "abstract": "Large complex networks have become an inseparable part of modern society. However, very little has been done to develop tools to manage and ensure the security of such networks. Network operators continue to slave over endless daily logs and alerts in a struggle to keep networks operational. Perhaps the most formidable enemy of network operations today is the volume of management data that must be perused. Expensive commercial products attempt to visualize data but with limited utility, as witnessed by the prevailing use of command-line interfaces and homegrown scripts. In addition to data collection tools, operators need to immediately observe and debug the effects of their actions; yet that information is buried deep in the data that pours daily from monitoring equipment. Thus, they need better ways to abstract network events and better, more informative ways to render them. In this work we first propose a new approach for abstracting network information, namely spectral representation. Second, we introduce immersive spatial audio representations of network events. Third, we introduce 3D interactive auto-stereoscopic (AS) displays for visual representations. We integrate the three techniques as follows. We use spectral techniques to extract complex events buried inside voluminous network traces and logs. Then, we create a desktop interactive immersive auto-stereoscopic 3D environment that is seamlessly integrated with multi-channel spatially rendered audio to render such events in a far more human-friendly fashion."
+    },
+    {
+        "title": "Combining a bayesian classifier with visualisation: understanding the IDS",
+        "doi": "10.1145/1029208.1029224",
+        "conference": "VizSec 2004",
+        "authors": "Stefan Axelsson",
+        "year": "2004",
+        "abstract": "Despite several years of intensive study, intrusion detection systems still suffer from two key deficiencies: Low detection rates and a high rate of false alarms. To counteract these drawbacks an interactive detection system based on simple Bayesian statistics combined with a visualisation component is proposed, in the hope that this lets the operator better understand how exactly the intrusion detection system is operating. The resulting system is applied to the log of a webserver. The combination proved to be effective. The Bayesian classifier was reasonably effective in learning to differentiate between benign and malicious accesses, and the visualisation component enabled the operator to discern when the intrusion detection system was correct in its output and when it was not, and to take corrective action, re-training the system interactively, until the desired level of performance was reached."
+    },
+    {
+        "title": "Scatter (and other) plots for visualizing user profiling data and network traffic",
+        "doi": "10.1145/1029208.1029227",
+        "conference": "VizSec 2004",
+        "authors": "Tom Goldring",
+        "year": "2004",
+        "abstract": "The scatterplot continues to be one of the most useful tools for visualizing numeric data, however what we typically encounter in Computer Security is categorical and/or textual in nature, and how to convert it into a form where scatterplots apply is not always obvious. We outline some simple ideas for doing this and illustrate with two \"real data\" case studies: User Profiling and Network Traffic. In both cases the results can be quite surprising."
+    },
+    {
+        "title": "Statistical profiling and visualization for detection of malicious insider attacks on computer networks",
+        "doi": "10.1145/1029208.1029231",
+        "conference": "VizSec 2004",
+        "authors": "Jeffrey B. Colombe, Gregory Stephens",
+        "year": "2004",
+        "abstract": "The massive volume of intrusion detection system (IDS) alarms generated on large networks, and the resulting need for labor-intensive security analysis of the text-based IDS alarm logs, has recently brought into question the cost-effectiveness of IDSs. In particular, when host-based IDSs are used to monitor an organization's internal networks, the majority of the resulting alarms represent legitimate, automated system administration. Because of the absence of ground truth about known attacks, we propose an unsupervised, anomaly-based method for automatically distinguishing alarms that are potentially generated by malicious insider attacks, from the repetitive and temporally structured legitimate system-administration alarms. The majority of previous work in this area has used heuristic and statistical filtering techniques to discard a relatively large proportion of alarms in the final presentation to the security analyst, which is a potentially dangerous practice. Instead, we demonstrate the use of a typicality measure to visualize the apparent risk associated with alarms, while retaining information about the temporal context of the entire alarm stream for the analyst to view. The relevance of the statistical method is examined by comparing the results to a set of analyst-curated alarms from an operational environment."
+    },
+    {
+        "title": "NVisionCC: a visualization framework for high performance cluster security",
+        "doi": "10.1145/1029208.1029230",
+        "conference": "VizSec 2004",
+        "authors": "William Yurcik, Xin Meng, Nadir Kiyanclar",
+        "year": "2004",
+        "abstract": "Large high performance clusters are gaining popularity as a means of harnessing vast computing resources at low cost using commodity components. Cluster system administrators face difficulty from two related problems. First, while several cluster monitoring solutions collect data on the node state and overall performance of a cluster, few monitors place emphasis on the meaningful visual presentation of this information which is increasingly important as cluster size in nodes grows beyond the human capability to manage using command line tools. Second, while cluster state and performance data have been visually monitored in several systems, there are currently no cluster monitors that visualize cluster security events. We have developed a framework for effective visualization of a high performance cluster security which we describe in this paper. We present GUI screenshots from a security visualization tool based on this framework and discuss our experience using this tool on high performance clusters at NCSA."
+    },
+    {
+        "title": "PortVis: a tool for port-based detection of security events",
+        "doi": "10.1145/1029208.1029220",
+        "conference": "VizSec 2004",
+        "authors": "Jonathan McPherson, Kwan-Liu Ma, Paul Krystosk, Tony Bartoletti, Marvin Christensen",
+        "year": "2004",
+        "abstract": "Most visualizations of security-related network data require large amounts of finely detailed, high-dimensional data. However, in some cases, the data available can only be coarsely detailed because of security concerns or other limitations. How can interesting security events still be discovered in data that lacks important details, such as IP addresses, network security alarms, and labels? In this paper, we discuss a system we have designed that takes very coarsely detailed data--basic, summarized information of the activity on each TCP port during each given hour--and uses visualization to help uncover interesting security events."
+    },
+    {
+        "title": "SnortView: visualization system of snort logs",
+        "doi": "10.1145/1029208.1029232",
+        "conference": "VizSec 2004",
+        "authors": "Hideki Koike, Kazuhiro Ohno",
+        "year": "2004",
+        "abstract": "False detection is a major issue in deploying and maintaining Network-based Intrusion Detection Systems (NIDS). Traditionally, it is recommended to customize its signature database (DB) to reduce false detections. However, it requires quite deep knowledge and skills to appropriately customize the signature DB. Inappropriate customization causes the increase of false negatives as well as false positives. In this paper, we propose a visualization system of a NIDS log, named SnortView, which supports administrators in analyzing NIDS alerts much faster and much more easily. Instead of customizing the signature DB, we propose to utilize visualization to recognize not only each alert but also false detections. The system is based on a 2-D time diagram and alerts are shown as icons with different styles and colors. In addition, the system introduces some visualization techniques such as overlayed statistical information, source-destination matrix, and so on. The system was used to detect real attacks while recognizing some false detections."
+    },
+    {
+        "title": "Email archive analysis through graphical visualization",
+        "doi": "10.1145/1029208.1029229",
+        "conference": "VizSec 2004",
+        "authors": "Wei-Jen Li, Shlomo Hershkop, Salvatore J. Stolfo",
+        "year": "2004",
+        "abstract": "The analysis of the vast storehouse of email content accumulated or produced by individual users has received relatively little attention other than for specific tasks such as spam and virus filtering. Current email analysis in standard client applications consists of keyword based matching techniques for filtering and expert driven manual exploration of email files.  We have implemented a tool, called the Email Mining Toolkit (EMT) for analyzing email archives which includes a graphical display to explore relationships between users and groups of email users. The chronological flow of an email message can be analyzed by EMT. Our design goal is to embed the technology into standard email clients, such as Outlook, revealing far more information about a user's own email history than is otherwise now possible. In this paper we detail the visualization techniques implemented in EMT. We show the utility of these tools and underlying models for detecting email misuse such as viral propagation, and spam spread as examples."
+    },
+    {
+        "title": "OCEANS - Online Collaborative Explorative Analysis on Network Security",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Siming Chen, Cong Guo, Xiaoru Yuan, Fabian Merkle, Hanna Schaefer, Thomas Ertl",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "Problem Characterization and Abstraction for Visual Analytics in Behavior-Based Malware Pattern Analysis",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Markus Wagner, Wolfgang Aigner, Alexander Rind, Hermann Dornhackl, Konstantin Kadletz, Robert Luh, Paul Tavolato",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "Multiple Queries with Conditional Attributes (QCATs) for Anomaly Detection and Visualization",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Simon Walton, Eamonn Maguire, Min Chen",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "DAVAST: Data-centric Activity Visualization at the System Level",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Tobias Wüchner, Alexander Pretschner, Martin Ochoa",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "7 Key Challenges for Visualization in Cyber Network Defense",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Daniel Best, Alex Endert, Daniel Kidwell",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "Visual Filter: Graphical Exploration of Network Security Log Files",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Jan-Erik Stange, Johannes Landstorfer, Marian Dörk, Reto Wettach",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "Visualization Evaluation for Cyber Security: Trends and Future Directions",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Diane Staheli, Yu Tamara, R. Jordan Crouser, Suresh Damodaran, Kevin Nam, David O'Gwynn, Lane Harrison, Sean McKenna",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "CORGI: Combination, Organization and Reconstruction through Graphical Interactions",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Christopher Humphries, Nicolas Prigent, Christophe Bidan, Frédéric Majorczyk",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "NStreamAware: Real-Time Visual Analytics for Data Streams to Enhance Situational Awareness",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Fabian Fischer, Daniel A. Keim",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "SEEM: A Scalable Visualization for Comparing Multiple Large Sets of Attributes for Malware Analysis",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Robert Gove, Joshua Saxe, Sigfried Gold, Alex Long, Giacomo Bergamo",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "IMap: Visualizing Network Activity over Internet Maps",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "J. Joseph Fowler, Thienne Johnson, Paolo Simonetto, Michael Schneider, Carlos Acedo, Stephen Kobourov, Loukas Lazos",
+        "year": "2014",
+        "abstract": ""
+    },
+    {
+        "title": "Detecting Malware Samples with Similar Image Sets",
+        "doi": "UNKNOWN",
+        "conference": "VizSec 2014",
+        "authors": "Alexander Long, Josh Saxe, Robert Gove",
+        "year": "2014",
+        "abstract": ""
+    }    
+]

@@ -46,7 +46,7 @@
         <ul class="nav nav-pills nav-stacked">
             <li ng-class="{ active: filters.year == '' }"><a href ng-click="filters.year = ''; updateVis();">All ({{(papers|filter: search).length}})</a></li>
 
-            <li ng-class="{ active: filters.year == paper.year }" ng-repeat="paper in papers| unique:'year' | orderBy:year">
+            <li ng-class="{ active: filters.year == paper.year }" ng-repeat="paper in papers| unique:'year' | orderBy:['-year']">
 
                 <a href ng-click="filters.year = paper.year; updateVis();">{{paper.year}} ({{ (papers | filter: {year:paper.year} | filter: search).length}})</a>
 
@@ -56,7 +56,7 @@
     </div>
 
     <div class="col-md-10" ng-show="isSet(1)">
-        <p><strong>VizSec {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+        <p><strong>{{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
         <ul class="papers">
 
             <li ng-repeat="paper in filtered = (papers| filter: search |filter: {year:filters.year} | orderBy:['-year', 'title'])" class="paper-listing paper-animation">
@@ -64,7 +64,7 @@
                 <em>{{paper.authors}}</em><br/>
                 <a href ng-click="open(paper)"><strong>{{paper.title}}</strong></a> ({{paper.year}})<br/>
 
-                <em>VizSec {{paper.year}} - DOI: {{paper.doi}}</em>
+                <em>{{paper.conference}} - DOI: {{paper.doi}}</em>
                 <p>{{paper.abstract| limitTo : 100 }} ... </p>
             </li>
 
@@ -74,7 +74,7 @@
 
     <div class="col-md-10" ng-show="isSet(2)">
 
-        <p><strong>Thumbnails - VizSec {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+        <p><strong>Thumbnails - {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
 
         <ul class="thumbnails">
 
@@ -88,7 +88,7 @@
     </div>
     <div class="col-md-10" ng-show="isSet(3)">
 
-        <p><strong>WordCloud - VizSec {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+        <p><strong>WordCloud - {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
         
 
         
@@ -99,7 +99,7 @@
     </div>
     <div class="col-md-10" ng-show="isSet(4)">
 
-        <p><strong>TreeMap - VizSec {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+        <p><strong>TreeMap - {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
 
 
         <div id="treemap"></div>

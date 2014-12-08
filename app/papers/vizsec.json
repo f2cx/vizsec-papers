@@ -1137,99 +1137,111 @@
         "abstract": "The analysis of the vast storehouse of email content accumulated or produced by individual users has received relatively little attention other than for specific tasks such as spam and virus filtering. Current email analysis in standard client applications consists of keyword based matching techniques for filtering and expert driven manual exploration of email files.  We have implemented a tool, called the Email Mining Toolkit (EMT) for analyzing email archives which includes a graphical display to explore relationships between users and groups of email users. The chronological flow of an email message can be analyzed by EMT. Our design goal is to embed the technology into standard email clients, such as Outlook, revealing far more information about a user's own email history than is otherwise now possible. In this paper we detail the visualization techniques implemented in EMT. We show the utility of these tools and underlying models for detecting email misuse such as viral propagation, and spam spread as examples."
     },
     {
+        "thumbnail": "vizsec2014chen.jpg",
         "title": "OCEANS - Online Collaborative Explorative Analysis on Network Security",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671493",
         "conference": "VizSec 2014",
         "authors": "Siming Chen, Cong Guo, Xiaoru Yuan, Fabian Merkle, Hanna Schaefer, Thomas Ertl",
         "year": "2014",
-        "abstract": ""
+        "abstract": "Visualization and interactive analysis can help network administrators and security analysts analyze the network flow and log data. The complexity of such an analysis requires a combination of knowledge and experience from more domain experts to solve difficult problems faster and with higher reliability. We developed an online visual analysis system called OCEANS to address this topic by allowing close collaboration among security analysts to create deeper insights in detecting network events. Loading the heterogeneous data source (netflow, IPS log and host status log), OCEANS provides a multi-level visualization showing temporal overview, IP connections and detailed connections. Participants can submit their findings through the visual interface and refer to others' existing findings. Users can gain inspiration from each other and collaborate on finding subtle events and targeting multi-phase attacks. Our case study confirms that OCEANS is intuitive to use and can improve efficiency. The crowd collaboration helps the users comprehend the situation and reduce false alarms."
     },
     {
+        "thumbnail": "vizsec2014wagner.jpg",
         "title": "Problem Characterization and Abstraction for Visual Analytics in Behavior-Based Malware Pattern Analysis",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671498",
         "conference": "VizSec 2014",
         "authors": "Markus Wagner, Wolfgang Aigner, Alexander Rind, Hermann Dornhackl, Konstantin Kadletz, Robert Luh, Paul Tavolato",
         "year": "2014",
-        "abstract": ""
+        "abstract": "Behavior-based analysis of emerging malware families involves finding suspicious patterns in large collections of execution traces. This activity cannot be automated for previously unknown malware families and thus malware analysts would benefit greatly from integrating visual analytics methods in their process. However existing approaches are limited to fairly static representations of data and there is no systematic characterization and abstraction of this problem domain. Therefore we performed a systematic literature study, conducted a focus group as well as semi-structured interviews with 10 malware analysts to elicit a problem abstraction along the lines of data, users, and tasks. The requirements emerging from this work can serve as basis for future design proposals to visual analytics-supported malware pattern analysis."
     },
     {
+        "thumbnail": "vizsec2014walton.jpg",
         "title": "Multiple Queries with Conditional Attributes (QCATs) for Anomaly Detection and Visualization",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671502",
         "conference": "VizSec 2014",
         "authors": "Simon Walton, Eamonn Maguire, Min Chen",
         "year": "2014",
-        "abstract": ""
+        "abstract": "This paper describes a visual analytics method for visualizing the effects of multiple anomaly detection models, exploring the complex model space of a specific type of detection method, namely Query with Conditional Attributes (QCAT), and facilitating the construction of composite models using multiple QCATs. We have developed a prototype system that features a browser-based interface, and database-driven back end. We tested the system using the 'Inside Threats Dataset' provided by CMU."
     },
     {
+        "thumbnail": "vizsec2014wuechner.png",
         "title": "DAVAST: Data-centric Activity Visualization at the System Level",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671499",
         "conference": "VizSec 2014",
         "authors": "Tobias Wüchner, Alexander Pretschner, Martin Ochoa",
         "year": "2014",
-        "abstract": ""
+        "abstract": "Host-based intrusion detection systems need to be complemented by analysis tools that help understand if malware or attackers have indeed intruded, what they have done, and what the consequences are. We present a tool that visualizes system activities as data flow graphs: nodes are operating system entities such as processes, files, and sockets; edges are data flows between the nodes. Pattern matching identifies structures that correspond to (suspected) malicious and (suspected) normal behaviors. Matches are highlighted in slices of the data flow graph. As a proof of concept, we show how email worm attacks, drive-by downloads, and data leakage are detected, visualized, and analyzed."
     },
     {
+        "thumbnail": "vizsec2014best.png",
         "title": "7 Key Challenges for Visualization in Cyber Network Defense",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671497",
         "conference": "VizSec 2014",
         "authors": "Daniel Best, Alex Endert, Daniel Kidwell",
         "year": "2014",
-        "abstract": ""
+        "abstract": "What does it take to be a successful visualization in cyber security? This question has been explored for some time, resulting in many potential solutions being developed and offered to the cyber security community. However, when one reflects upon the successful visualizations in this space they are left wondering where all those offerings have gone. Excel and Grep are still the kings of cyber security defense tools; there is a great opportunity to help in this domain, yet many visualizations fall short and are not utilized. In this paper we present seven challenges, informed by two user studies, to be considered when developing a visualization for cyber security purposes. Cyber security visualizations must go beyond isolated solutions and 'pretty picture' visualizations in order to impact users. We provide an example prototype that addresses the challenges with a description of how they are met. Our aim is to assist in increasing utility and adoption rates for visualization capabilities in cyber security."
     },
     {
+        "thumbnail": "vizsec2014stange.jpg",
         "title": "Visual Filter: Graphical Exploration of Network Security Log Files",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671503",
         "conference": "VizSec 2014",
         "authors": "Jan-Erik Stange, Johannes Landstorfer, Marian Dörk, Reto Wettach",
         "year": "2014",
-        "abstract": ""
+        "abstract": "Network log files often need to be investigated manually for suspicious activity. The huge amount of log lines complicates maintaining an overview, navigation and quick pattern identification. We propose a system that uses an interactive visualization, a visual filter, representing the whole log in an overview, allowing to navigate and make context-preserving subselections with the visualization and in this way reducing the time and effort for security experts needed to identify patterns in the log file. This explorative interactive visualization is combined with focused querying to search for known suspicious terms that are then highlighted in the visualization and the log file itself."
     },
     {
+        "thumbnail": "vizsec2014staheli.png",
         "title": "Visualization Evaluation for Cyber Security: Trends and Future Directions",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671492",
         "conference": "VizSec 2014",
-        "authors": "Diane Staheli, Yu Tamara, R. Jordan Crouser, Suresh Damodaran, Kevin Nam, David O'Gwynn, Lane Harrison, Sean McKenna",
+        "authors": "Diane Staheli, Tamara Yu, R. Jordan Crouser, Suresh Damodaran, Kevin Nam, David O'Gwynn, Sean McKenna, Lane Harrison",
         "year": "2014",
-        "abstract": ""
+        "abstract": "The Visualization for Cyber Security research community (VizSec) addresses longstanding challenges in cyber security by adapting and evaluating information visualization techniques with application to the cyber security domain. This research effort has created many tools and techniques that could be applied to improve cyber security, yet the community has not yet established unified standards for evaluating these approaches to predict their operational validity. In this paper, we survey and categorize the evaluation metrics, components, and techniques that have been utilized in the past decade of VizSec research literature. We also discuss existing methodological gaps in evaluating visualization in cyber security, and suggest potential avenues for future research in order to help establish an agenda for advancing the state-of-the-art in evaluating cyber security visualizations."
     },
     {
+        "thumbnail": "vizsec2014humphries.png",
         "title": "CORGI: Combination, Organization and Reconstruction through Graphical Interactions",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671494",
         "conference": "VizSec 2014",
         "authors": "Christopher Humphries, Nicolas Prigent, Christophe Bidan, Frédéric Majorczyk",
         "year": "2014",
-        "abstract": ""
+        "abstract": "In this article, we present CORGI, a security-oriented log visualization tool that allows security experts to visually explore and link numerous types of log files through relevant representations and global filtering. The analyst can mark values as values of interest and then use these values to pursue the exploration in other log files, allowing him to better understand events and reconstruct attack scenarios. We present the user interface and interactions that ensure these capabilities and provide two use cases based on challenges from VAST and from the Honeynet project."
     },
     {
+        "thumbnail": "vizsec2014fischer.png",
         "title": "NStreamAware: Real-Time Visual Analytics for Data Streams to Enhance Situational Awareness",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671495",
         "conference": "VizSec 2014",
         "authors": "Fabian Fischer, Daniel A. Keim",
         "year": "2014",
-        "abstract": ""
+        "abstract": "The analysis of data streams is important in many security-related domains to gain situational awareness. To provide monitoring and visual analysis of such data streams, we propose a system, called NStreamAware, that uses modern distributed processing technologies to analyze streams using stream slices, which are presented to analysts in a web-based visual analytics application, called NVisAware. Furthermore, we visually guide the user in the feature selection process to summarize the slices to focus on the most interesting parts of the stream based on introduced expert knowledge of the analyst. We show through case studies, how the system can be used to gain situational awareness and eventually enhance network security. Furthermore, we apply the system to a social media data stream to compete in an international challenge to evaluate the applicability of our approach to other domains."
     },
     {
+        "thumbnail": "vizsec2014gove.jpg",
         "title": "SEEM: A Scalable Visualization for Comparing Multiple Large Sets of Attributes for Malware Analysis",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671496",
         "conference": "VizSec 2014",
         "authors": "Robert Gove, Joshua Saxe, Sigfried Gold, Alex Long, Giacomo Bergamo",
         "year": "2014",
-        "abstract": ""
+        "abstract": "Recently, the number of observed malware samples has rapidly increased, expanding the workload for malware analysts. Most of these samples are not truly unique, but are related through shared attributes. Identifying these attributes can enable analysts to reuse analysis and reduce their workload. Visualizing malware attributes as sets could enable analysts to better understand the similarities and differences between malware. However, existing set visualizations have difficulty displaying hundreds of sets with thousands of elements, and are not designed to compare different types of elements between sets, such as the imported DLLs and callback domains across malware samples. Such analysis might help analysts, for example, to understand if a group of malware samples are behaviorally different or merely changing where they send data. To support comparisons between malware samples' attributes we developed the Similarity Evidence Explorer for Malware (SEEM), a scalable visualization tool for simultaneously comparing a large corpus of malware across multiple sets of attributes (such as the sets of printable strings and function calls). SEEM's novel design breaks down malware attributes into sets of meaningful categories to compare across malware samples, and further incorporates set comparison overviews and dynamic filtering to allow SEEM to scale to hundreds of malware samples while still allowing analysts to compare thousands of attributes between samples. We demonstrate how to use SEEM by analyzing a malware sample from the Mandiant APT1 New York Times intrusion dataset. Furthermore, we describe a user study with five cyber security researchers who used SEEM to rapidly and successfully gain insight into malware after only 15 minutes of training."
     },
     {
+        "thumbnail": "vizsec2014fowler.jpg",
         "title": "IMap: Visualizing Network Activity over Internet Maps",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671501",
         "conference": "VizSec 2014",
         "authors": "J. Joseph Fowler, Thienne Johnson, Paolo Simonetto, Michael Schneider, Carlos Acedo, Stephen Kobourov, Loukas Lazos",
         "year": "2014",
-        "abstract": ""
+        "abstract": "We propose a novel visualization, IMap, which enables the detection of security threats by visualizing a large volume of dynamic network data. In IMap, the Internet topology at the Autonomous System (AS) level is represented by a canonical map (which resembles a geographic map of the world), and aggregated IP traffic activity is superimposed in the form of heat maps (intensity overlays). Specifically, IMap groups ASes as contiguous regions based on AS attributes (geo-location, type, rank, IP prefix space) and AS relationships. The area, boundary, and relative positions of these regions in the map do not reflect actual world geography, but are determined by the characteristics of the Internet's AS topology. To demonstrate the effectiveness of IMap, we showcase two case studies, a simulated DDoS attack and a real-world worm propagation attack."
     },
     {
+        "thumbnail": "vizsec2014long.png",
         "title": "Detecting Malware Samples with Similar Image Sets",
-        "doi": "UNKNOWN",
+        "doi": "10.1145/2671491.2671500",
         "conference": "VizSec 2014",
         "authors": "Alexander Long, Josh Saxe, Robert Gove",
         "year": "2014",
-        "abstract": ""
+        "abstract": "This paper proposes a method for identifying and visualizing similarity relationships between malware samples based on their embedded graphical assets (such as desktop icons and button skins). We argue that analyzing such relationships has practical merit for a number of reasons. For example, we find that malware desktop icons are often used to trick users into running malware programs, so identifying groups of related malware samples based on these visual features can highlight themes in the social engineering tactics of today's malware authors. Also, when malware samples share rare images, these image sharing relationships may indicate that the samples were generated or deployed by the same adversaries. To explore and evaluate this malware comparison method, the paper makes two contributions. First, we provide a scalable and intuitive method for computing similarity measurements between malware based on the visual similarity of their sets of images. Second, we give a visualization method that combines a force-directed graph layout with a set visualization technique so as to highlight visual similarity relationships in malware corpora. We evaluate the accuracy of our image set similarity comparison method against a hand curated malware relationship ground truth dataset, finding that our method performs well. We also evaluate our overall concept through a small qualitative study we conducted with three cyber security researchers. Feedback from the researchers confirmed our use cases and suggests that computer network defenders are interested in this capability."
     }    
 ]

@@ -1,5 +1,4 @@
 'use strict';
-/* Filters */
 
 angular.module('appFilters', []).filter('arrayFilter', function () {
     return function (input) {

@@ -1,17 +1,16 @@
 'use strict';
 
-/* Controllers */
-
 var appControllers = angular.module('appControllers', ['ui.bootstrap', 'ui.utils', 'angular.filter', 'appFilters']);
 
 appControllers.controller('MainController', ['$scope', 'Paper', '$modal', '$log', '$filter',
     function ($scope, Paper, $modal, $log, $filter) {
 
         $scope.papers = Paper.query();
-
+        
         $scope.orderProp = 'cite';
         $scope.filters = {};
-
+        $scope.filters.year = '';
+        
         $scope.tab = 1;
 
         $scope.setTab = function (newValue) {
@@ -28,7 +27,7 @@ appControllers.controller('MainController', ['$scope', 'Paper', '$modal', '$log'
         $scope.updateVis = function () {
 
             $scope.$apply();
-            
+
             $("#treemap").empty();
             $scope.visTreeMap = d3plus.viz()
                     .container("#treemap")
@@ -57,7 +56,7 @@ appControllers.controller('MainController', ['$scope', 'Paper', '$modal', '$log'
             var options = {click: wordClicked, minRotation: 0, clearCanvas: true,
                 maxRotation: 0, shuffle: false,
                 fontFamily: 'Times, serif',
-                color: function(word, weight, fontSize, distance, theta) { 
+                color: function (word, weight, fontSize, distance, theta) {
                     var color = d3.scale.linear().domain([10, 150]).range(["gray", "red"]);
                     return color(fontSize);
                 },
@@ -82,7 +81,7 @@ appControllers.controller('MainController', ['$scope', 'Paper', '$modal', '$log'
 
         $scope.open = function (paper) {
 
-            var modalInstance = $modal.open({
+            $modal.open({
                 templateUrl: 'partials/modal.html',
                 controller: ModalInstanceCtrl,
                 size: 'lg',
@@ -93,16 +92,7 @@ appControllers.controller('MainController', ['$scope', 'Paper', '$modal', '$log'
                 }
             });
 
-            modalInstance.result.then(function (selectedItem) {
-                $scope.selected = selectedItem;
-            }, function () {
-                $log.info('Modal dismissed at: ' + new Date());
-            });
         };
-
-
-
-
 
     }]);
 

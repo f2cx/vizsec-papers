@@ -95,7 +95,11 @@
                     <ul class="papers">
 
                         <li ng-click="open(paper)" ng-repeat="paper in filtered = (papers| filter: search |filter: {year:filters.year} | orderBy:['-year', 'title'])" class="paper-listing paper-animation">
-                            <div class="listing-image"><div class="galleryImgWrapper"> <div ng-show="paper.thumbnail"><img title="{{paper.title}}" ng-src="papers/{{paper.thumbnail}}"></div></div></div>
+                            
+                            
+                            <div class="thumbnail-image"><div class="galleryImgWrapper"><img ng-show="paper.thumbnail" title="{{paper.title}}" ng-src="papers/{{paper.thumbnail}}"></div></div>
+                            
+                            <!--<div class="listing-image"><div class="galleryImgWrapper"> <div ng-show="paper.thumbnail"><img title="{{paper.title}}" ng-src="papers/{{paper.thumbnail}}"></div></div></div>-->
                             <em>{{paper.authors}}</em><br/>
                             <strong>{{paper.title}}</strong> ({{paper.year}})<br/>
 

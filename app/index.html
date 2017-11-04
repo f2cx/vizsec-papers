@@ -43,7 +43,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="http://vizsec.dbvis.de/">VizSec Papers <em>[alpha]</em></a>
+                        <a class="navbar-brand" href="http://vizsec.dbvis.de/">VizSec Papers</a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -59,7 +59,6 @@
                             <li ng-class="{ active: isSet(1) }"><a href ng-click="setTab(1)"><i class="glyphicon glyphicon-th-list"></i><span>&nbsp; List</span></a></li>
                             <li ng-class="{ active: isSet(2) }"><a href ng-click="setTab(2)"><i class="glyphicon glyphicon-th"></i><span>&nbsp; Thumbnails</span></a></li>
                             <li ng-class="{ active: isSet(3) }"><a href ng-click="setTab(3)"><i class="glyphicon glyphicon-cloud"></i><span>&nbsp; WordCloud</span></a></a></li>
-                            <li ng-class="{ active: isSet(4) }"><a href ng-click="setTab(4)"><i class="glyphicon glyphicon-th-large"></i><span>&nbsp; TreeMap</span></a></a></li>
 
                         </ul>
 
@@ -75,7 +74,7 @@
 
             <div class="row">
 
-                <div class="col-md-1">
+                <div class="col-sm-2 hidden-xs">
 
 
                     <ul class="nav nav-pills nav-stacked">
@@ -90,9 +89,10 @@
 
                 </div>
 
-                <div class="col-md-10" ng-show="isSet(1)">
-                    <p><strong>{{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
-                    <ul class="papers">
+                <div class="col-sm-10" ng-show="isSet(1)">
+				
+				  <ul class="papers">
+                    <p><strong>{{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</br></br></p>
 
                         <li ng-click="open(paper)" ng-repeat="paper in filtered = (papers| filter: search |filter: {year:filters.year} | orderBy:['-year', 'title'])" class="paper-listing paper-animation">
                             
@@ -112,9 +112,9 @@
 
                 <div class="col-md-10" ng-show="isSet(2)">
 
-                    <p><strong>Thumbnails - {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
-
                     <ul class="thumbnails">
+					
+                    <p><strong>Thumbnails - {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</br></br></p>
 
                         <li ng-repeat="paper in filtered = (papers| filter: search | filter: {year:filters.year} | orderBy:['-year', 'title'])" class="paper-thumbnails paper-animation">
                             <a href ng-click="open(paper)" class="thumbnail-image"><div class="galleryImgWrapper"><img title="{{paper.title}}" ng-src="papers/{{paper.thumbnail && (paper.thumbnail) || ('missing.png')}}"></div></a>
@@ -126,17 +126,9 @@
                 </div>
                 <div class="col-md-10" ng-show="isSet(3)">
 
-                    <p><strong>WordCloud - {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
+                    <p><strong>WordCloud - {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}<br/><br/></p>
 
                     <canvas width="1000px" height="800px" id="wordcloud"></canvas>
-
-                </div>
-                <div class="col-md-10" ng-show="isSet(4)">
-
-                    <p><strong>TreeMap - {{filters.year}} Papers:</strong> {{filtered.length}} / {{(papers| filter: {year:filters.year}).length }}</p>
-
-
-                    <div id="treemap"></div>
 
                 </div>
 

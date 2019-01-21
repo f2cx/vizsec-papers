@@ -5,13 +5,13 @@
 
 </div>
 <div class="modal-body">
-    <p><div ng-show="paper.thumbnail"><a href="http://dx.doi.org/{{paper.doi}}" target="_blank"><img alt="{{paper.title}}" title="{{paper.title}}" class="pull-right paper-image" ng-src="papers/{{paper.thumbnail}}" /></a></div>
+    <p><div ng-show="paper.thumbnail"><a ng-href="{{getReference()}}" target="_blank"><img alt="{{paper.title}}" title="{{paper.title}}" class="pull-right paper-image" ng-src="papers/{{paper.thumbnail}}" /></a></div>
     <blockquote class="paper-abstract">{{paper.abstract}}</blockquote></p>
 
-<strong>Reference:</strong> <em>{{paper.conference}} - DOI: <a href="http://dx.doi.org/{{paper.doi}}" target="_blank">{{paper.doi}}</a></em>
+<strong>Reference:</strong> <em>{{paper.conference}}</em><span ng-if="paper.doi"><em> - DOI: <a ng-href="{{getReference()}}" target="_blank">{{paper.doi}}</a></em></span>
 </div>
 <div class="modal-footer">
-    <a type="button" href="http://dx.doi.org/{{paper.doi}}" target="_blank" class="btn btn-danger">Visit Publisher Website</a>
+    <a ng-if="getReference()" type="button" ng-href="{{getReference()}}" target="_blank" class="btn btn-danger">Visit {{getReferenceName()}} Website</a>
     <button class="btn btn-primary" ng-click="ok()">Close</button>
 
 </div>

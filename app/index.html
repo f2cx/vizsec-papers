@@ -102,7 +102,7 @@
                             <em>{{paper.authors}}</em><br/>
                             <strong>{{paper.title}}</strong> ({{paper.year}})<br/>
 
-                            <em>{{paper.conference}} - DOI: {{paper.doi}}</em>
+                            <em>{{paper.conference}}</em><span ng-if="paper.doi"><em> - DOI: {{paper.doi}}</em></span>
                             <p>{{paper.abstract| limitTo : 100 }} ... </p>
                         </li>
 

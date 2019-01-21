@@ -99,8 +99,27 @@ appControllers.controller('MainController', ['$scope', 'Paper', '$modal', '$log'
 
 var ModalInstanceCtrl = function ($scope, $modalInstance, paper) {
 
-
     $scope.paper = paper;
+
+    $scope.getReference = function() {
+	if (paper.doi) {
+		return "http://dx.doi.org/" + paper.doi;
+	}
+	if (paper.url) {
+		return paper.url;
+	}
+         
+    };
+
+
+    $scope.getReferenceName = function() {
+	if (paper.doi) {
+		return "Publisher";
+	} else {
+		return "Author";
+	}
+         
+    };
 
     $scope.ok = function () {
         $modalInstance.close();

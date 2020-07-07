@@ -11,7 +11,9 @@
 <strong>Reference:</strong> <em>{{paper.conference}}</em><span ng-if="paper.doi"><em> - DOI: <a ng-href="{{getReference()}}" target="_blank">{{paper.doi}}</a></em></span>
 </div>
 <div class="modal-footer">
-    <a ng-if="getReference()" type="button" ng-href="{{getReference()}}" target="_blank" class="btn btn-danger">Visit {{getReferenceName()}} Website</a>
+    <a ng-if="paper.doi" type="button" ng-href="{{getReference()}}" target="_blank" class="btn btn-danger">Visit Publisher Website</a>
+    <a ng-if="paper.url" type="button" ng-href="{{paper.url}}" target="_blank" class="btn btn-default">Visit Author Preprint</a>
+    <a ng-if="paper.video" type="button" ng-href="{{paper.video}}" target="_blank" class="btn btn-default">Watch Video</a>
     <button class="btn btn-primary" ng-click="ok()">Close</button>
 
 </div>

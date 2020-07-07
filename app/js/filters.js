@@ -89,10 +89,6 @@ angular.module('appFilters', []).filter('arrayFilter', function () {
 
         }
 
-        for (var i in data) {
-            console.log(data[i][1]);
-
-        }
         return data;
     };
 

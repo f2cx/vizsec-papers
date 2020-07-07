@@ -105,19 +105,6 @@ var ModalInstanceCtrl = function ($scope, $modalInstance, paper) {
 	if (paper.doi) {
 		return "http://dx.doi.org/" + paper.doi;
 	}
-	if (paper.url) {
-		return paper.url;
-	}
-         
-    };
-
-
-    $scope.getReferenceName = function() {
-	if (paper.doi) {
-		return "Publisher";
-	} else {
-		return "Author";
-	}
          
     };
 

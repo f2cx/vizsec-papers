@@ -2,7 +2,7 @@
     {
         "thumbnail": "vizsec2019lohfink.png",
         "title": "Security in Process: Visually Supported Triage Analysis in Industrial Process Data",
-        "doi": "",
+        "doi": "10.1109/TVCG.2020.2969007",
         "url": "https://arxiv.org/pdf/1912.04865.pdf",
         "video": "https://vimeo.com/380950514",
         "conference": "VizSec 2019",
@@ -13,7 +13,7 @@
     {
         "thumbnail": "vizsec2019laughlin.png",
         "title": "A Visual Analytics Framework for Adversarial Text Generation",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161563",
         "url": "",
         "video": "https://vimeo.com/380954640",
         "conference": "VizSec 2019",
@@ -24,7 +24,7 @@
     {
         "thumbnail": "vizsec2019shaughnessy.png",
         "title": "Image-based Malware Classification: A Space Filling Curve Approach",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161583",
         "url": "",
         "video": "https://vimeo.com/380955891",
         "conference": "VizSec 2019",
@@ -35,7 +35,7 @@
     {
         "thumbnail": "vizsec2019angelini.png",
         "title": "SymNav: Visually Assisting Symbolic Execution",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161524",
         "url": "",
         "video": "https://vimeo.com/380957521",
         "conference": "VizSec 2019",
@@ -46,7 +46,7 @@
     {
         "thumbnail": "vizsec2019guerra.png",
         "title": "A Study on Labeling Network Hostile Behavior with Intelligent Interactive Tools",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161489",
         "url": "",
         "video": "https://vimeo.com/380958789",
         "conference": "VizSec 2019",
@@ -57,7 +57,7 @@
     {
         "thumbnail": "vizsec2019ulmer.png",
         "title": "NetCapVis: Web-based Progressive Visual Analytics for Network Packet Captures",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161633",
         "url": "",
         "video": "https://vimeo.com/380959986",
         "conference": "VizSec 2019",
@@ -68,7 +68,7 @@
     {
         "thumbnail": "vizsec2019fouss.png",
         "title": "PunyVis: A Visual Analytics Approach for Identifying Homograph Phishing Attacks",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161590",
         "url": "",
         "video": "https://vimeo.com/380961560",
         "conference": "VizSec 2019",
@@ -79,7 +79,7 @@
     {
         "thumbnail": "vizsec2019dasgupta.png",
         "title": "Guess Me If You Can: A Visual Uncertainty Model for Transparent Evaluation of Disclosure Risks in Privacy-Preserving Data Visualization",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161608",
         "url": "",
         "video": "https://vimeo.com/380964286",
         "conference": "VizSec 2019",
@@ -90,7 +90,7 @@
     {
         "thumbnail": "vizsec2019radek.png",
         "title": "Visual Feedback for Players of Multi-Level Capture the Flag Games: Field Usability Study",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161386",
         "url": "",
         "video": "https://vimeo.com/380965769",
         "conference": "VizSec 2019",
@@ -101,7 +101,7 @@
     {
         "thumbnail": "vizsec2019varga.png",
         "title": "An Exploration of Cyber Symbology",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161577",
         "url": "",
         "video": "https://vimeo.com/380966782",
         "conference": "VizSec 2019",
@@ -112,7 +112,7 @@
     {
         "thumbnail": "vizsec2019subramanian.png",
         "title": "Explainable Visualization of Collaborative Vandal Behaviors in Wikipedia",
-        "doi": "",
+        "doi": "10.1109/VizSec48167.2019.9161504",
         "url": "",
         "video": "https://vimeo.com/380968101",
         "conference": "VizSec 2019",

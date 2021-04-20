@@ -1,5 +1,65 @@
 [
     {
+        "thumbnail": "vizsec2020schufrin.png",
+        "title": "A Visualization Interface to Improve the Transparency of Collected Personal Data on the Internet",
+        "doi": "10.1109/VizSec51108.2020.00007",
+        "url": "https://arxiv.org/pdf/2009.02998",
+        "conference": "VizSec 2020",
+        "authors": "Marija Schufrin, Steven Lamarr Reynolds, Arjan Kuijper, Jörn Kohlhammer",
+        "year": "2020",
+        "abstract": "Online services are used for all kinds of activities, like news, entertainment, publishing content or connecting with others. But information technology enables new threats to privacy by means of global mass surveillance, vast databases and fast distribution networks. Current news are full of misuses and data leakages. In most cases, users are powerless in such situations and develop an attitude of neglect for their online behaviour. On the other hand, the GDPR (General Data Protection Regulation) gives users the right to request a copy of all their personal data stored by a particular service, but the received data is hard to understand or analyze by the common internet user. This paper presents TransparencyVis - a web-based interface to support the visual and interactive exploration of data exports from different online services. With this approach, we aim at increasing the awareness of personal data stored by such online services and the effects of online behaviour. This design study provides an online accessible prototype and a best practice to unify data exports from different sources."
+    },
+    {
+        "thumbnail": "vizsec2020beran.png",
+        "title": "Exploratory Analysis of File System Metadata for Rapid Investigation of Security Incidents",
+        "doi": "10.1109/VizSec51108.2020.00008",
+        "url": "https://arxiv.org/pdf/2009.01698",
+        "conference": "VizSec 2020",
+        "authors": "Michal Beran, František Hrdina, Daniel Kouřil, Radek Ošlejšek, Kristina Zakopcanova",
+        "year": "2020",
+        "abstract": "Investigating cybersecurity incidents requires in-depth knowledge from the analyst. Moreover, the whole process is demanding due to the vast data volumes that need to be analyzed. While various techniques exist nowadays to help with particular tasks of the analysis, the process as a whole still requires a lot of manual activities and expert skills. We propose an approach that allows the analysis of disk snapshots more efficiently and with lower demands on expert knowledge. Following a user-centered design methodology, we implemented an analytical tool to guide analysts during security incident investigations. The viability of the solution was validated by an evaluation conducted with members of different security teams."
+    },
+    {
+        "thumbnail": "vizsec2020peng.png",
+        "title": "Visualization for Spectators in Cybersecurity Competitions",
+        "doi": "10.1109/VizSec51108.2020.00009",
+        "url": "https://www.researchgate.net/profile/Chao-Peng-32/publication/349204116_Visualization_for_Spectators_in_Cybersecurity_Competitions/links/602b6de9299bf1cc26cb78ad/Visualization-for-Spectators-in-Cybersecurity-Competitions.pdf",
+        "conference": "VizSec 2020",
+        "authors": "Chao Peng, David Schwartz, Daryl Johnson Johnson, Bill Stackpole, Chad Weeden, Jacob Marcovecchio, Drake Richards, Chris Fogle, Christopher Brown, Victoria Walrond",
+        "year": "2020",
+        "abstract": "The goal is to raise awareness and encourage learning cybersecurity principles by making competitions appealing to a wider audience. In an effort to make events compelling, attractive, and watchable, the researchers will develop systems to support visualizations and make the transactions between teams in different cybersecurity competitions easy to comprehend. In informing and educating the audience on the intricacies of the competition through engaging visualizations, cybersecurity competitions will be opened up to a world beyond just participants. In doing so, we can potentially attract new talent into the field. Our team seeks to make prototype visualizations for key actions in various student cybersecurity competitions and assess spectator understanding of key principles of the competition."
+    },
+    {
+        "thumbnail": "vizsec2020becker.png",
+        "title": "Interpretable Visualizations of Deep Neural Networks for Domain Generation Algorithm Detection",
+        "doi": "10.1109/VizSec51108.2020.00010",
+        "url": "https://sappan-project.eu/wp-content/uploads/2020/11/fbecker-interpretable-vizsec-20201.pdf",
+        "conference": "VizSec 2020",
+        "authors": "Franziska Becker, Arthur Drichel, Christoph Müller, Thomas Ertl",
+        "year": "2020",
+        "abstract": "Due to their success in many application areas, deep learning models have found wide adoption for many problems. However, their black-box nature makes it hard to trust their decisions and to evaluate their line of reasoning. In the field of cybersecurity, this lack of trust and understanding poses a significant challenge for the utilization of deep learning models. Thus, we present a visual analytics system that provides designers of deep learning models for the classification of domain generation algorithms with understandable interpretations of their model. We cluster the activations of the model's nodes and leverage decision trees to explain these clusters. In combination with a 2D projection, the user can explore how the model views the data at different layers. In a preliminary evaluation of our system, we show how it can be employed to better understand misclassifications, identify potential biases and reason about the role different layers in a model may play."
+    },
+    {
+        "thumbnail": "vizsec2020alperin.png",
+        "title": "Improving Interpretability for Cyber Vulnerability Assessment Using Focus and Context Visualizations",
+        "doi": "10.1109/VizSec51108.2020.00011",
+        "url": "https://www.researchgate.net/profile/Kenneth-Alperin/publication/349204581_Improving_Interpretability_for_Cyber_Vulnerability_Assessment_Using_Focus_and_Context_Visualizations/links/6035079f299bf1cc26e617ab/Improving-Interpretability-for-Cyber-Vulnerability-Assessment-Using-Focus-and-Context-Visualizations.pdf",
+        "conference": "VizSec 2020",
+        "authors": "Kenneth Alperin, Allan Wollaber, Steven R. Gomez",
+        "year": "2020",
+        "abstract": "Risk scoring provides a simple and quantifiable metric for decision support in cyber security operations, including prioritizing how to address discovered software vulnerabilities. However, scoring systems are often opaque to operators, which makes scores difficult to interpret in the context of their own networks, each other, or in a broader threat landscape. This interpretability challenge is exacerbated by recent applications of artificial intelligence (AI) and machine learning (ML) for vulnerability assessment, where opaque machine reasoning can hinder domain experts' trust in the decision-support toolkit or the actionability of its outputs. In this paper, we address this challenge through a combination of visualizations and analytics that complement existing techniques for vulnerability assessment. We present a study toward designing more interpretable visual encodings for decision support for vulnerability assessment. In particular, we consider the problem of making datasets of known vulnerabilities more interpretable at multiple scales, inspired by focus and context principles from the information visualization design community. The first scale considers individually scored vulnerabilities by using an explainable AI (XAI) toolkit for an ML risk-scoring model and by developing new visualizations of CVSS score features. The second scale uses an embedding for vulnerability descriptions to cluster potentially similar vulnerabilities. We outline use cases for these tools and discuss opportunities for applying XAI concepts to cyber risk and vulnerability management."
+    },
+    {
+        "thumbnail": "vizsec2020chaffey.png",
+        "title": "Malware vs Anti-Malware Battle - Gotta Evade ‘em All!",
+        "doi": "10.1109/VizSec51108.2020.00012",
+        "url": "https://core.ac.uk/download/pdf/340199834.pdf",
+        "conference": "VizSec 2020",
+        "authors": "Emily J. Chaffey, Daniele Sgandurra",
+        "year": "2020",
+        "abstract": "The landscape of malware development is ever-changing, creating a constant catch-up contest between the defenders and the adversaries. One of the methodologies that has the potential to pose a significant threat to systems is malware evasion. This is where malware tries to determine whether it is run in a controlled environment, such as a sandbox. Similarly, a malware can also learn how an Anti-Malware System (AMS) decides whether an input program is a malware or in fact benign with the goal of bypassing it. On the other hand, the AMS tries to detect whether a malware sample is performing such evasive checks, e.g. by evaluating the results of Reverse-Turing Test (RTT). This learning process can be viewed as a `battle' between the AMS and the malware, due to the malware attempting to defeat the AMS, where a successful win for the malware would be to evade detection by the AMS and, conversely, a win for the AMS would be to correctly detect the malware and its evasive actions. We propose a visualisation-based system, called Gotta Evade `em All, that allows cyber-security analysts to clearly see the evasive and anti-evasive actions performed by the malware and the AMS during the battle."
+    },    
+    {
         "thumbnail": "vizsec2019lohfink.png",
         "title": "Security in Process: Visually Supported Triage Analysis in Industrial Process Data",
         "doi": "10.1109/TVCG.2020.2969007",

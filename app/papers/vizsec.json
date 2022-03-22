@@ -1,5 +1,106 @@
 [
     {
+        "thumbnail": "vizsec2021gove.png",
+        "title": "Automatic Narrative Summarization for Visualizing Cyber Security Logs and Incident Reports",
+        "doi": "10.1109/VizSec53666.2021.00005",
+        "url": "https://osf.io/ekzbp/",
+        "conference": "VizSec 2021",
+        "authors": "Robert Gove",
+        "year": "2021",
+        "abstract": "Cyber security logs and incident reports describe a narrative, but in practice analysts view the data in tables where it can be difficult to follow the narrative. Narrative visualizations are useful, but common examples use a summarized narrative instead of the full story's narrative; it is unclear how to automatically generate these summaries. This paper presents (1) a narrative summarization algorithm to reduce the size and complexity of cyber security narratives with a user-customizable summarization level, and (2) a narrative visualization tailored for incident reports and network logs. An evaluation on real incident reports shows that the summarization algorithm reduces false positives and improves average precision by 41% while reducing average incident report size up to 79%. Together, the visualization and summarization algorithm generate compact representations of cyber narratives that earned praise from a SOC analyst. We further demonstrate that the summarization algorithm can apply to other types of dynamic graphs by automatically generating a summary of the Les Misérables character interaction graph. We find that the list of main characters in the automatically generated summary has substantial agreement with human-generated summaries. A version of this paper, data, and code is freely available at https://osf.io/ekzbp/."
+    },
+    {
+        "thumbnail": "vizsec2021sopan.png",
+        "title": "AI Total: Analyzing Security ML Models with Imperfect Data in Production",
+        "doi": "10.1109/VizSec53666.2021.00006",
+        "url": "https://arxiv.org/pdf/2110.07028.pdf",
+        "conference": "VizSec 2021",
+        "authors": "Awalin Sopan, Konstantin Berlin",
+        "year": "2021",
+        "abstract": "Development of new machine learning models is typically done on manually curated data sets, making them unsuitable for evaluating the models’ performance during operations, where the evaluation needs to be performed automatically on incoming streams of new data. Unfortunately, pure reliance on a fully automatic pipeline for monitoring model performance makes it difficult to understand if any observed performance issues are due to model performance, pipeline issues, emerging data distribution biases, or some combination of the above. With this in mind, we developed a web-based visualization system that allows the users to quickly gather headline performance numbers while maintaining confidence that the underlying data pipeline is functioning properly. It also enables the users to immediately observe the root cause of an issue when something goes wrong. We introduce a novel way to analyze performance under data issues using a data coverage equalizer. We describe the various modifications and additional plots, filters, and drill-downs that we added on top of the standard evaluation metrics typically tracked in machine learning (ML) applications, and walk through some real world examples that proved valuable for introspecting our models."
+    },
+    {
+        "thumbnail": "vizsec2021angelini.png",
+        "title": "BUCEPHALUS: a BUsiness CEntric cybersecurity Platform for proActive anaLysis Using visual analyticS",
+        "doi": "10.1109/VizSec53666.2021.00007",
+        "url": "",
+        "video": "https://aware-diag-sapienza.github.io/BUCEPHALUS/",
+        "conference": "VizSec 2021",
+        "authors": "Marco Angelini, Graziano Blasilli, Silvia Bonomi, Simone Lenti, Alessia Palleschi, Giuseppe Santucci, Emiliano De Paoli",
+        "year": "2021",
+        "abstract": "Analyzing and mitigating the threats that cyber-attacks pose on the services of a critical infrastructure is not a trivial activity. Research solutions have been developed using data about the devices used for implementing the services, services dependencies, network topology, and the vulnerabilities that can be exploited to attack the network. However, most of the proposed solutions fail to consider these aspects in an integrated fashion, allowing the user to understand global dependencies and weaknesses. This paper contributes this issue with BUCEPHALUS, a Visual Analytics solution providing a) a visual overview of the existing relationships among business functions, devices, and vulnerabilities, and b) a what-if analysis scenario, in which the user is supported on making decisions on which vulnerabilities are more appropriate to fix. BUCEPHALUS has been developed and validated within a user-centered design process involving security professionals."
+    },
+    {
+        "thumbnail": "vizsec2021john.png",
+        "title": "Decision Support for Sharing Data using Differential Privacy",
+        "doi": "10.1109/VizSec53666.2021.00008",
+        "url": "https://research.cyber.ee/~peeter/research/vizsec2021.pdf",
+        "conference": "VizSec 2021",
+        "authors": "Mark F. St. John, Grit Denker, Peeter Laud, Karsten Martiny, Alisa Pankova, Dusko Pavlovic",
+        "year": "2021",
+        "abstract": "Owners of data may wish to share some statistics with others, but they may be worried of privacy of the underlying data. An effective solution to this problem is to employ provable privacy techniques, such as differential privacy, to add noise to the statistics before releasing them. This protection lowers the risk of sharing sensitive data with more or less trusted data sharing partners. Unfortunately, applying differential privacy in its mathematical form requires one to fix certain numeric parameters, which involves subtle computations and expert knowledge that the data owners may lack.In this paper, we first describe a differential privacy parameter selection procedure that minimizes what lay data owners need to know. Second, we describe a user visualization and workflow that makes this procedure available for lay data owners by helping them set the level of noise appropriately to achieve a tolerable risk level. Finally, we describe a user study in which human factors professionals who were native to differential privacy were briefly trained on the concept of using differential privacy for data sharing and then used the visualization to determine an appropriate level of noise."
+    },
+    {
+        "thumbnail": "vizsec2021nadeem.png",
+        "title": "SAGE: Intrusion Alert-driven Attack Graph Extractor",
+        "doi": "10.1109/VizSec53666.2021.00009",
+        "url": "https://arxiv.org/pdf/2107.02783.pdf",
+        "conference": "VizSec 2021",
+        "authors": "Azqa Nadeem, Sicco Verwer, Shanchieh Jay Yang",
+        "year": "2021",
+        "abstract": "Attack graphs (AG) are used to assess pathways availed by cyber adversaries to penetrate a network. State-of-the-art approaches for AG generation focus mostly on deriving dependencies between system vulnerabilities based on network scans and expert knowledge. In real-world operations however, it is costly and ineffective to rely on constant vulnerability scanning and expert-crafted AGs. We propose to automatically learn AGs based on actions observed through intrusion alerts, without prior expert knowledge. Specifically, we develop an unsupervised sequence learning system, SAGE, that leverages the temporal and probabilistic dependence between alerts in a suffix-based probabilistic deterministic finite automaton (S-PDFA) – a model that accentuates infrequent severe alerts and summarizes paths leading to them. AGs are then derived from the S-PDFA on a per-objective, per-victim basis. Tested with intrusion alerts collected through Collegiate Penetration Testing Competition, SAGE compresses over 330k alerts into 93 AGs. These AGs reflect the strategies used by the participating teams. The AGs are succinct, interpretable, and capture behavioral dynamics, e.g., that attackers will often follow shorter paths to re-exploit objectives."
+    },
+    {
+        "thumbnail": "vizsec2021schreiber.png",
+        "title": "Towards Visual Analytics Dashboards for Provenance-driven Static Application Security Testing",
+        "doi": "10.1109/VizSec53666.2021.00010",
+        "url": "https://elib.dlr.de/147371/1/Towards_Visual_Analytics_Dashboards_for_Provenance-driven_Static_Application_Security_Testing.pdf",
+        "conference": "VizSec 2021",
+        "authors": "Andreas Schreiber, Tim Sonnekalb, Lynn von Kurnatowski",
+        "year": "2021",
+        "abstract": "The use of static code analysis tools for security audits can be time consuming, as the many existing tools focus on different aspects and therefore development teams often use several of these tools to keep code quality high and prevent security issues. Displaying the results of multiple tools, such as code smells and security warnings, in a unified interface can help developers get a better overview and prioritize upcoming work. We present visualizations and a dashboard that interactively display results from static code analysis for “interesting” commits during development. With this, we aim to provide an effective visual analytics tool for code security analysis results."
+    },
+    {
+        "thumbnail": "vizsec2021graham.png",
+        "title": "Developing Visualisations to Enhance an Insider Threat Product: A Case Study",
+        "doi": "10.1109/VizSec53666.2021.00011",
+        "url": "https://arxiv.org/pdf/2109.08445.pdf",
+        "conference": "VizSec 2021",
+        "authors": "Martin Graham, Robert Kukla, Oleksii Mandrychenko, Darren Hart, Jessie Kennedy",
+        "year": "2021",
+        "abstract": "This paper describes the process of developing data visualisations to enhance a commercial software platform for combating insider threat, whose existing UI, while perfectly functional, was limited in its ability to allow analysts to easily spot the patterns and outliers that visualisation naturally reveals. We describe the design and development process, proceeding from initial tasks/requirements gathering, understanding the platform’s data formats, the rationale behind the visualisations’ design, and then refining the prototype through gathering feedback from representative domain experts who are also current users of the software. Through a number of example scenarios, we show that the visualisation can support the identified tasks and aid analysts in discovering and understanding potentially risky insider activity within a large user base."
+    },
+    {
+        "thumbnail": "vizsec2021boehm.png",
+        "title": "Visual Decision-Support for Live Digital Forensics",
+        "doi": "10.1109/VizSec53666.2021.00012",
+        "url": "https://epub.uni-regensburg.de/50949/1/Visual_Decision_Support_for_Live_Digital_Forensics.pdf",
+        "conference": "VizSec 2021",
+        "authors": "Fabian Böhm, Ludwig Englbrecht, Sabrina Friedl, Günther Pernul",
+        "year": "2021",
+        "abstract": "Performing a live digital forensics investigation on a running system is challenging due to the time pressure under which decisions have to be made. Newly proliferating and frequently applied types of malware (e.g., fileless malware) increase the need to conduct digital forensic investigations in real-time. In the course of these investigations, forensic experts are confronted with a wide range of different forensic tools. The decision, which of those are suitable for the current situation, is often based on the cyber forensics experts’ experience. Currently, there is no reliable automated solution to support this decision-making. Therefore, we derive requirements for visually supporting the decision-making process for live forensic investigations and introduce a research prototype that provides visual guidance for cyber forensic experts during a live digital forensics investigation. Our prototype collects relevant core information for live digital forensics and provides visual representations for connections between occurring events, developments over time, and detailed information on specific events. To show the applicability of our approach, we analyze an exemplary use case using the prototype and demonstrate the support through our approach."
+    },
+    {
+        "thumbnail": "vizsec2021reynolds.png",
+        "title": "User-Centered Design of Visualizations for Software Vulnerability Reports",
+        "doi": "10.1109/VizSec53666.2021.00013",
+        "url": "",
+        "conference": "VizSec 2021",
+        "authors": "Steven Lamarr Reynolds, Tobias Mertz, Steven Arzt, Jörn Kohlhammer",
+        "year": "2021",
+        "abstract": "Today’s software systems are created by software development processes that naturally include mistakes, some of which can be exploited by attackers and are therefore called vulnerabilities. Automatic software scanners enable developers to analyze their applications to detect vulnerabilities and alert them of their presence. But often these reports are hard to understand, include false positives or overwhelm users due to the sheer number of alerts, since a report may contain hundreds to thousands of vulnerabilities. Developers must undergo a process called vulnerability triage to find the relevant vulnerabilities to fix. This paper presents two interactive visualizations for developers and security experts to gain an overview of the security state of their application. Users can see the distribution of vulnerabilities, find the most relevant ones, and compare differences between application versions. Our visualization design is inspired by an initial preliminary study and has been evaluated by domain experts to investigate the usability and appropriateness."
+    },
+    {
+        "thumbnail": "vizsec2021dennig.png",
+        "title": "VulnEx: Exploring Open-Source Software Vulnerabilities in Large Development Organizations to Understand Risk Exposure",
+        "doi": "10.1109/VizSec53666.2021.00014",
+        "url": "https://arxiv.org/pdf/2108.06259.pdf",
+        "conference": "VizSec 2021",
+        "authors": "Frederik L. Dennig, Eren Cakmak, Henrik Plate, Daniel A. Keim",
+        "year": "2021",
+        "abstract": "The prevalent usage of open-source software (OSS) has led to an increased interest in resolving potential third-party security risks by fixing common vulnerabilities and exposures (CVEs). However, even with automated code analysis tools in place, security analysts often lack the means to obtain an overview of vulnerable OSS reuse in large software organizations. In this design study, we propose VULNEX (Vulnerability Explorer), a tool to audit entire software development organizations. We introduce three complementary table based representations to identify and assess vulnerability exposures due to OSS, which we designed in collaboration with security analysts. The presented tool allows examining problematic projects and applications (repositories), third-party libraries, and vulnerabilities across a software organization. We show the applicability of our tool through a use case and preliminary expert feedback."
+    },
+    {
         "thumbnail": "vizsec2020schufrin.png",
         "title": "A Visualization Interface to Improve the Transparency of Collected Personal Data on the Internet",
         "doi": "10.1109/VizSec51108.2020.00007",
